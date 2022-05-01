@@ -28,6 +28,9 @@ Team members have drafted their project, including the following:
 - How are the basic weather conditions in most of the accident cases in US ?
 - Which are the top 10 States with most no. of road accident cases in US ? ...and More
 
+Notes:
+! [Data Cleaning Process text file link](https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/DataCleaning/DataClean/ETLprocess.txt)
+
 Acknowledgements:
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
 
