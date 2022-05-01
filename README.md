@@ -14,7 +14,7 @@ Dashboard - Revati Kulkarni
 
 Team members have drafted their project, including the following: 
 
-✓ Selected topic: The U.S. Department of Transportation’s National Highway Traffic Safety Administration released its 2020 annual traffic crash data, showing that 38,824 lives were lost in traffic crashes nationwide. That number marks the highest number of fatalities since 2007. Our team got interested in studying and analysing about this data.
+✓ Selected topic: The U.S. Department of Transportation’s National Highway Traffic Safety Administration released its 2021 annual traffic crash data, showing that 38,824 lives were lost in traffic crashes nationwide. That number marks the highest number of fatalities since 2007. Our team got interested in studying and analysing about this data.
 
 ✓ Reason why they selected their topic: All of the USA heavily rely on car or some form of road transportation every day. Apart from pandemic time, our major part of the day is spend on commute in onr form or other. So road safety, accidents are the issues close to our heart. Hence our team decided to analyse and get insight from the data avaliable from government agencies on road accidents in the USA.
 
