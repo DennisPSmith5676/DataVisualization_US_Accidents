@@ -21,22 +21,101 @@ Team members have drafted their project, including the following:
 ✓ Description of their source of data: While searching for data, we came across https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents. This is a countrywide car accident dataset, which covers 49 states of the USA. The accident data are collected from February 2016 to Dec 2021, using multiple APIs that provide streaming traffic incident (or event) data. These APIs broadcast traffic data captured by a variety of entities, such as the US and state departments of transportation, law enforcement agencies, traffic cameras, and traffic sensors within the road-networks. Currently, there are about 2.8 million accident records in this dataset. This dataset has been collected in real-time, using multiple Traffic APIs. Currently, it contains accident data that are collected from February 2016 to Dec 2021 for the Contiguous United States.
 
 ✓ Questions they hope to answer with the data: US-Accidents can be used for numerous applications such as real-time car accident prediction, studying car accidents hotspot locations, casualty analysis and extracting cause and effect rules to predict car accidents, and studying the impact of precipitation or other environmental stimuli on accident occurrence. The most recent release of the dataset can also be useful to study the impact of COVID-19 on traffic behavior and accidents. Our team is planning to find the answers to questions such as:
-- Which City in US has reported most no. of Accident Cases in last 5 years (2016-2020) ?
+- Which City in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
 - Which are the top 10 accident prone streets in US ?
 - Per Day averagely how many road accidents took place in US ?
 - In which hours of the day most accidents happened in US ?
 - How are the basic weather conditions in most of the accident cases in US ?
 - Which are the top 10 States with most no. of road accident cases in US ? ...and More
 
-Notes: The following files were created by Uma and Helenga to describe the process for Data cleaning and Machine Language Stage 1
+Notes: The following files were created by Uma and Helenga to describe the process for Data Prep/Cleaning and Machine Learning Stage 1
 
-![Data Cleaning Process text file link](https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/DataCleaning/DataClean/ETLprocess.txt)
+![Data Prep/Cleaning Process text file link](https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/DataCleaning/DataClean/ETLprocess.txt)
 
 ![Machine Learning Process text file link](https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/MachineLearningModel/MLStage1.txt)
 
 ✓ Description of the communication protocols: We are meeting 5 times a week and reviewing all changes before we commit the code and files to the main branch.
 
+How we can work on this problem with machine learning!
+The basic idea we had was, why not train some models on the dataset and use those models to get the feature importance to figure out which factors contribute the most to an accident. These can be weather, time of day, month of the year, and the location as some areas are more prone than others. This same approach can be used to predict accidents in real time based on user input.
+
+First cut approach to the problem
+Do some basic Exploratory Data Analysis to get some insights into the data;
+We will be using the “Severity” feature as our target variable to train the models.
+Remove some features that are highly correlated which can help us in reducing overfitting.
+Create some new features by using feature engineering techniques.
+Trying several feature encoding techniques based on the nature of the feature.
+Over and undersampling the data as the number of points per target variable is disproportionate.
+Train some models on them and get feature importance for each model.
+
+This dataset contains 49 columns which means we are dealing with 49 features in total which is a little bit too much. We will try to remove some of them and maybe combine some columns into one. 
+
+We can note that the distribution of class labels is very disproportionate:
+
+The number points in both the highest and lowest severity classes is much lower(almost 0 for the lowest severity) which can lead to the conclusion that most accidents are moderately severe in degree.
+
+We will now try to see which states are most accident prone
+
+California, Texas and Florida alone make up almost 40% of all the accidents that took place.
+
+Now we should see what weather conditions are most common when accidents occur
+
+This makes it look like accidents are most likely in clear weather but that may not be the case, it’s just that most of the time the weather is clear so to get a good idea of likelihood according to weather, this may not be the ideal way. To get a realistic picture, we also need full weather data for the period which we don’t have at the moment but you can try this yourself with some weather API.
+
+Next, we’ll try to see what time of day are the accidents more likely by plotting the number of accidents on y-axis and hour of day on x-axis:
+
+We can see that the most accidents occur at around 8–9 am in the morning and then there is a second surge at 4 to 5 pm. We know that this is the time when most people travel to and from work, which results in increasing the traffic density which in turn leads to more accidents.
+
+We can also note that as the day goes on, starting from evening time, the percentage of higher severity accidents also increases substantially. It can be concluded with this that as the sun goes down, the accidents are much more drastic even though the overall number of accidents decreases due to the existence of less cars on the road.
+
+Since, we are using severity as our target variable, let’s also try to see if weather has an effect on the severity of the accident
+We may note that as the weather conditions worsen, the accidents of higher severities make up for a greater fraction of the overall accidents in that weather condition, we can note this by looking at the difference between lengths of bars for each condition.
+<Insert Image>
+
+Model building and feature engineering
+We now have some necessary insights into the dataset so, we can move on to modelling and experimentation along with some feature engineering since this is a machine learning task.
+
+New features
+We can start with adding some new features based on time of day and month etc. as these things seem to be highly relevant in predicting the accident severity. 
+We’ll then remove some outliers and negative features. Also, we should drop the features with a high number of null values since those can add noise to the models.
+
+We didn’t do one-hot encoding of any features due to large number of possible values for most features and computational limitations, but it can be tried if you have the resources to run it. We encoded some features with value counts.
+
+Over and under-sampling of data points
+Through the EDA above, we can clearly notice that the class distribution in this dataset is very imbalanced. This is due to the fact that the lowest and highest severity accidents don’t occur as often as compared to other two severities so we don’t have adequate data for those classes. This means if we used the data in its existing condition then the model may never give predictions which have those probabilities. To counter this we will try to under sample the over represented classes and over sample the under represented classes. This wouldn’t completely get rid of the problem but it’s better than nothing.
+
+I used RandomUndersampler method of the imblearn library as we have adequate points for those classes and it wouldn’t hurt to just randomly get rid of some of those points and use SMOTE method to over sample as it is the most robust of all the over sampling methods currently available to us. This process can be done in only a few lines of code as given below:
+<Insert Image>
+
+
+Modelling part
+We tested several machine learning models along with variations between encoding types and including and excluding some of the custom features, the main models I used are the following:
+
+Logistic Regression: Logistic regression is a technique in statistical analysis that attempts to predict a data value based on prior observations. A logistic regression algorithm looks at the relationship between a dependent variable and one or more dependent variables. I did some parameter tuning and this is the final code:
+
+2. LightGBM: This is a gradient boosting framework which used tree based learning but it is different from traditional tree based algorithms in the sense that this grows vertically as compared to horizontally in other algorithms and grows tree wise instead of level wise. It is easier on the memory as compared to other gradient boosting algorithms and focuses on getting high accuracy.
+
+
+3. XGBoost: It is also a decision-tree based gradient boosting algorithm. This algorithm is designed to make maximum use of computational resources and gives very high performance. Its performance is comparable and in some cases even better than neural network for small-to-medium sized tabular data.
+
+
+4. Random Forest: Random forest is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result. So, we can say that this is just an ensemble of decision trees. This doesn’t require much hyper-parameter tuning.
+
+We can see that XGBoost with response encoding and resampling gives us the best results out of all the models I tested. So, we can conclude that this combination is the best for this dataset. The code for this entire project can be found here.
+
+Further Improvements:
+One-hot encoding can be tried for some of the features.
+Weighted XGBoost and other similar models can be implemented instead of resampling the dataset.
+Some basic MLP model to compare against our best model here.
+
+References:
+https://arxiv.org/pdf/1906.05409.pdf
+https://smoosavi.org/datasets/us_accidents
+https://arxiv.org/pdf/1909.09638.pdf
+https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
+63
 Acknowledgements:
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
 
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
+
