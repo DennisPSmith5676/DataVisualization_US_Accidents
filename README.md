@@ -109,11 +109,17 @@ Weighted XGBoost and other similar models can be implemented instead of resampli
 Some basic MLP model to compare against our best model here.
 
 References:
+  
 https://arxiv.org/pdf/1906.05409.pdf
+
 https://smoosavi.org/datasets/us_accidents
+
 https://arxiv.org/pdf/1909.09638.pdf
+
 https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
-63
+
+
+  
 Acknowledgements:
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.
 
