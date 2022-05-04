@@ -39,24 +39,26 @@ order by count(l.severity) DESC;
 
 -- Number of accidents by severity & state
 select count(severity), severity, state 
---into severity_by_state
+into severity_by_state
 from acci_location
 group by (state, severity);
 
--- Number of Accident by Month
-SELECT id, start_time 
-from acci_location;
+------------------------------------------------------------------------------------------------
+-- Traffic condition data 
+select id, severity, start_time, time_duration, distance
+into traffic_jam
+from acci_location
+
+__ 
+
+-- Weather Feature Data
+select l.id, l.severity, w.temperature, w.wind_chill,w.humidity,w.pressure,w.visibility,
+		w.wind_direction, w.wind_speed, w.precipitation, w.sunrise_sunset
+into weather_feature
+from acci_location as l
+join acci_weather as w
+on l.id=w.id
+
+
 	
-create table acci_month(
-id int primary key,
-acci_date date
-)	
-
-
--- accident by month
-select  extract(month from m.acci_date) , count(severity) 
-from month as m
-join acci_location as l
-on m.id=l.id
-group by (date_part)
 
