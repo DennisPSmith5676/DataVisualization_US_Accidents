@@ -22,12 +22,16 @@ Team members have drafted their project, including the following:
 
 ✓ Questions they hope to answer with the data: US-Accidents can be used for numerous applications such as real-time car accident prediction, studying car accidents hotspot locations, casualty analysis and extracting cause and effect rules to predict car accidents, and studying the impact of precipitation or other environmental stimuli on accident occurrence. The most recent release of the dataset can also be useful to study the impact of COVID-19 on traffic behavior and accidents. Our team is planning to find the answers to questions such as:
 - Which City in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
+-     Done in 
 - Which are the top 10 accident prone streets in US ?
+-     Done in
 - Per Day averagely how many road accidents took place in US ?
+- 
 - In which hours of the day most accidents happened in US ?
-- How are the basic weather conditions in most of the accident cases in US ?
-- Which are the top 10 States with most no. of road accident cases in US ? ...and More
-
+- Tableu Bar Chart
+- 
+- Which are the top 10 States with most no. of road accident cases in US ? 
+- 
 Notes: The following files were created by Uma and Helenga to describe the process for Data Prep/Cleaning and Machine Learning Stage 1
 
 [Data Prep/Cleaning Process text file link](https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/DataCleaning/DataClean/ETLprocess.txt)
@@ -89,20 +93,18 @@ We used RandomUndersampler method of the imblearn library as we have adequate po
 
 
 Modelling part
-We tested several machine learning models along with variations between encoding types and including and excluding some of the custom features, the main models I used are the following:
+We tested 4 machine learning models along with variations between encoding types and including and excluding some of the custom features, the main models I used are the following:
 
-Logistic Regression: Logistic regression is a technique in statistical analysis that attempts to predict a data value based on prior observations. A logistic regression algorithm looks at the relationship between a dependent variable and one or more dependent variables. I did some parameter tuning and this is the final code:
+1. Random Forest: Random forest is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result. So, we can say that this is just an ensemble of decision trees. This doesn’t require much hyper-parameter tuning.
+  
+2. SMOTEENN: Used to perform over-sampling using SMOTE and cleaning using ENN. Combine over- and under-sampling using SMOTE and (ENN) Edited Nearest Neighbours.  
+  
+3. SMOTE works by utilizing a k-nearest neighbour algorithm to create synthetic data. SMOTE first start by choosing random data from the minority class, then k-nearest neighbours from the data are set. Synthetic data would then be made between the random data and the randomly selected k-nearest neighbour)
 
-2. LightGBM: This is a gradient boosting framework which used tree based learning but it is different from traditional tree based algorithms in the sense that this grows vertically as compared to horizontally in other algorithms and grows tree wise instead of level wise. It is easier on the memory as compared to other gradient boosting algorithms and focuses on getting high accuracy.
+4. KMEANS:k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
 
-
-3. XGBoost: It is also a decision-tree based gradient boosting algorithm. This algorithm is designed to make maximum use of computational resources and gives very high performance. Its performance is comparable and in some cases even better than neural network for small-to-medium sized tabular data.
-
-
-4. Random Forest: Random forest is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result. So, we can say that this is just an ensemble of decision trees. This doesn’t require much hyper-parameter tuning.
-
-We can see that XGBoost with response encoding and resampling gives us the best results out of all the models I tested. So, we can conclude that this combination is the best for this dataset. The code for this entire project can be found here.
-
+We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset. 
+  
 Further Improvements:
 One-hot encoding can be tried for some of the features.
 Weighted XGBoost and other similar models can be implemented instead of resampling the dataset.
