@@ -1,6 +1,9 @@
 # add config.py
 config.py
 
+# ignore DataFile
+DataFile/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
