@@ -14,16 +14,15 @@ Database - Uma K Iyer
 Dashboard - Revati Kulkarni
 
 ### Table of Contents
-
+* [Team](#team)
 * [General info](#general-info)
 * [Questions](#questions)
-* [Machine_Learning](#machine_learning)
 * [Data Source](#data-source)
-* [Preview](#preview)
-* [Data Cleaning](#Data_Cleaning)
-* [Data Visualization](#Data_Visualization)
-* [Reports](#reports)
-* [Team](#team)
+* [ETL](#ETL)
+* [Data Cleaning](#data-cleaning)
+* [Machine Learning](#machine-learning)
+* [Data Visualization](#data-visualization)
+* [Reports Instructions](#reports-instructions)
 
 # General info
 
@@ -40,16 +39,21 @@ Team members have drafted their project, including the following:
 
 ✓ Questions they hope to answer with the data: US-Accidents can be used for numerous applications such as real-time car accident prediction, studying car accidents hotspot locations, casualty analysis and extracting cause and effect rules to predict car accidents, and studying the impact of precipitation or other environmental stimuli on accident occurrence. The most recent release of the dataset can also be useful to study the impact of COVID-19 on traffic behavior and accidents. Our team is planning to find the answers to questions such as:
 * Which City in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
-* Done in 
+* Done in PostgresSQL
+![last 5 Years](/IMAGES/count_year.png)
 * Which are the top 10 accident prone streets in US ?
-* Done in
+*  Done in PostgresSQL
+![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
 * Per Day averagely how many road accidents took place in US ?
-*
+* Done in PostgresSQL
+![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
 * In which hours of the day most accidents happened in US ?
+![top 10](/IMAGES/count_hour.png)
 * Tableu Bar Chart
-*
+![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
 * Which are the top 10 States with most no. of road accident cases in US ?
-
+ Done in PostgresSQL
+ ![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
 -
 Notes: The following files were created by Uma and Helenga to describe the process for Data Prep/Cleaning and Machine Learning Stage 1
 
@@ -57,9 +61,11 @@ Notes: The following files were created by Uma and Helenga to describe the proce
 
 [Machine Learning Process text file link](https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/MachineLearningModel/MLStage1.txt)
 
+# Data Cleaning
+
 ✓ Description of the communication protocols: We are meeting 5 times a week and reviewing all changes before we commit the code and files to the main branch.
 
-# Machine_Learning
+# Machine Learning
 
 How we can work on this problem with machine learning!
 The basic idea we had was, why not train some models on the dataset and use those models to get the feature importance to figure out which factors contribute the most to an accident. These can be weather, time of day, month of the year, and the location as some areas are more prone than others. This same approach can be used to predict accidents in real time based on user input.
@@ -95,7 +101,10 @@ We can also note that as the day goes on, starting from evening time, the percen
 
 Since, we are using severity as our target variable, let’s also try to see if weather has an effect on the severity of the accident
 We may note that as the weather conditions worsen, the accidents of higher severities make up for a greater fraction of the overall accidents in that weather condition, we can note this by looking at the difference between lengths of bars for each condition.
-<Insert Image>
+
+# ETL
+
+![top 10](/IMAGES/ERD-US_Accident.png)
 
 Model building and feature engineering
 We now have some necessary insights into the dataset so, we can move on to modelling and experimentation along with some feature engineering since this is a machine learning task.
@@ -110,10 +119,13 @@ Over and under-sampling of data points
 Through the EDA above, we can clearly notice that the class distribution in this dataset is very imbalanced. This is due to the fact that the lowest and highest severity accidents don’t occur as often as compared to other two severities so we don’t have adequate data for those classes. This means if we used the data in its existing condition then the model may never give predictions which have those probabilities. To counter this we will try to under sample the over represented classes and over sample the under represented classes. This wouldn’t completely get rid of the problem but it’s better than nothing.
 
 We used RandomUndersampler method of the imblearn library as we have adequate points for those classes and it wouldn’t hurt to just randomly get rid of some of those points and use SMOTE method to over sample as it is the most robust of all the over sampling methods currently available to us. This process can be done in only a few lines of code as given below:
-<Insert Image>
+
+# Data Visualization
+
+![top 10](/IMAGES/image.png)
 
 Modelling part
-We tested 4 machine learning models along with variations between encoding types and including and excluding some of the custom features, the main models I used are the following:
+We tested 6 machine learning models along with variations between encoding types and including and excluding some of the custom features, the main models I used are the following:
 
 1. Random Forest: Random forest is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result. So, we can say that this is just an ensemble of decision trees. This doesn’t require much hyper-parameter tuning.
   
@@ -123,8 +135,13 @@ We tested 4 machine learning models along with variations between encoding types
 
 4. KMEANS:k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
 
+5. Naive Random Oversampling: Naïve Bayes is a simple learning algorithm that utilizes Bayes’ rule together with a strong assumption that the attributes are conditionally independent given the class. While this independence assumption is often violated in practice, naïve Bayes nonetheless often delivers competitive classification accuracy. Coupled with its computational efficiency and many other desirable features, this leads to naïve Bayes being widely applied in practice.
+
+
+6. ClusterCentroids resampler(Undersampling)
+
 We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
-  
+  # Reports Instructions
 Further Improvements:
 One-hot encoding can be tried for some of the features.
 Weighted XGBoost and other similar models can be implemented instead of resampling the dataset.
