@@ -142,6 +142,10 @@ We tested 6 machine learning models along with variations between encoding types
 
 We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
   # Reports Instructions
+  
+  ## google Slides
+  [Google Slides file link](https://docs.google.com/presentation/d/1BbW_9SDosgocGcgVJXc93XC9Y5BanCLbL863OFvCy94/edit?usp=sharing)
+  
 Further Improvements:
 One-hot encoding can be tried for some of the features.
 Weighted XGBoost and other similar models can be implemented instead of resampling the dataset.
