@@ -1,5 +1,7 @@
 # The_Final_Project_Data_Visualization
 
+![Accident](/IMAGES/car-crash-accident-on-road-600w-577056850.webp)
+
 This is the final Team 8 project for the Rutgers Data Visualization Bootcamp
 
 # Team
