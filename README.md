@@ -142,10 +142,10 @@ By default, Sklearn train_test_split will make random partitions for the two sub
     
   ###### Naive Random Oversampling Algorithm
   
-  ![Naive random over sampling Histogram](./IMAGES/Naive%20random%20oversampling-histogrem.png)
+  ![Naive random over sampling Histogram](./IMAGES/Naive%20random%20oversampling-BAS.png)
    
  Balnce Accuracy Score:
- ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive random oversampling-BAS.png)
+ ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive%20random%20oversampling-BAS.png)
 
     
  ##### Undersampling
@@ -167,11 +167,11 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  
  Random forest classifier Accuracy score:
  
- ![Random forest classifier Accuracy score](./IMAGES/Random forest accuracy score.png)
+ ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20accuracy%20score.png)
  
  Feature impotency:
  
- ![Random forest classifier Accuracy score](./IMAGES/Random forest Feature impotacy.png)
+ ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20Feature%20impotacy.png)
  
  According to the graph the most importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng
  
