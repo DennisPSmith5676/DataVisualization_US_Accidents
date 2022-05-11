@@ -82,7 +82,8 @@ Over and undersampling the data as the number of points per target variable is d
 Train some models on them and get feature importance for each model.
 
 ### Segment 2:
-#### Description of preliminary data preprocessing
+#### ✓  Description of preliminary data preprocessing
+This dataset contains 49 columns which means we are dealing with 49 features in total which is a little bit too much. We will try to remove some of them and maybe combine some columns into one.
  - Droped the non-beneficial columns'ID','Start_Time','End_Time','Zipcode' for machine learning process.
     - ID: since they don't carry any information for the severity
     - Start_Time,End_Time :because it was decomposed by the time features added before (day, month, weekday,Year).
@@ -92,8 +93,55 @@ Train some models on them and get feature importance for each model.
 
  ![dtypes](./IMAGES/IMAGES/mock_Dtypes.png)
  
-#### Description of preliminary feature engineering 
+#### ✓ Description of preliminary feature engineering 
+ - Street column has 17079 unique values, so used binning to catogerised the values of the Street column,
+    If value count of Street less than 20 then catogerize as "Other".
+    ![Bining Street](./images/biningStreet.PNG)
+  - Used Label Encoding  to converte the catogerical columns  into a numeric form so as to convert them into the machine-readable form. 
+    Machine learning algorithms can then decide in a better way how those labels must be operated.  
+    
+    ![Label Encoded](./images/StreetLabelEncode.PNG)
+  - Check features variance
+   checked the variance for each feature in order to remove features with a very low variance beacuse they can't help to discriminate instances.
+     
+     
+   ![describe](./images/Xdescribe.PNG)
+     - Even though Precipitation and Pressure have a small variance, there is no need to drop them since they usually have small increments.
+     
+         ![describe](./images/DescribePercipitation.PNG)
+   
+#### ✓ Description of how data was split into training and testing sets
  
+ - train_test_split is a function in Sklearn model selection for splitting data arrays into two subsets: 
+for training data and for testing data. With this function, we don't need to divide the dataset manually. 
+By default, Sklearn train_test_split will make random partitions for the two subsets.
+
+    ![describe](./images/splittoTrainTest.PNG)
+    
+ ####  ✓ Explanation of model choice
+ 
+ The severity attribute as we can see from the  plot is highly unbalanced, the number of accident with the severity 1 is very small instead the number of accident with severity 2 is much higher.
+ 
+ ![describe](./images/unbalanced.PNG)
+ Train the Logistic Regression model  and calculated the accuracy score before resampling the data.
+ 
+ ![Before smapling Accuracy Score](./images/BefSampling.PNG)
+ 
+ The acciracy score value calculated from logistic regression is very low that excepted.So we are moving into resampling techniques.
+ 
+ ##### Random Oversampling
+ In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
+    
+    In this section, compared two oversampling algorithms to determine which algorithm results in the best performance.
+    And oversampled the data using the naive random oversampling algorithm and the SMOTE algorithm.
+    
+    ###### Naive random oversampling algorithm
+    
+    ![Naive random oversampling Histogram](./images/Naive random oversampling-histogrem.PNG)
+    
+    Balanced Accuracy Score:
+ 
+    ![Naive random oversampling Balance Acuracy Score](./images/Naive random oversampling-BAS.PNG)
 # ETL
 
 ![top 10](/IMAGES/ERD-US_Accident.png)
