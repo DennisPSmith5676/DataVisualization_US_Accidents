@@ -84,6 +84,7 @@ Train some models on them and get feature importance for each model.
 ### Segment 2:
 
 In here we considered only 50000 records from US accidents dataset which can be found on below url
+https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
 
 #### ✓  Description of preliminary data preprocessing
 
