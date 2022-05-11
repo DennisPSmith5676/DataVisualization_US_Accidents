@@ -110,18 +110,12 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
     
     ![Label Encoded](./IMAGES/StreetLabelEncode.png)
     
-  - Check features variance
+  - Features variance
   - checked the variance for each feature in order to remove features with a very low variance beacuse they can't help to discriminate instances.
      
      
    ![describe](./IMAGES/Xdescribe.png)
-   
-    Even though Precipitation and Pressure have a small variance, there is no need to drop them since they usually have small increments.
-    
-    ![describe](./images/DescribePercipitation.png)
-     
-   
-   
+  
 #### ✓ Description of how data was split into training and testing sets
  
  - train_test_split is a function in Sklearn model selection for splitting data arrays into two subsets: 
