@@ -112,9 +112,11 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
      
    ![describe](./IMAGES/Xdescribe.PNG)
    
-        - Even though Precipitation and Pressure have a small variance, there is no need to drop them since they usually have small increments.
-        
-          ![describe](./IMAGES/DescribePercipitation.PNG)
+    Even though Precipitation and Pressure have a small variance, there is no need to drop them since they usually have small increments.
+    
+    ![describe](./images/DescribePercipitation.PNG)
+     
+   
    
 #### ✓ Description of how data was split into training and testing sets
  
