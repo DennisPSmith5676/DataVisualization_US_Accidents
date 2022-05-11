@@ -122,20 +122,21 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  
  The severity attribute as we can see from the  plot is highly unbalanced, the number of accident with the severity 1 is very small instead the number of accident with severity 2 is much higher.
  
- ![describe](./images/unbalanced.PNG)
+ ![unbalanced dta](./images/unbalanced.PNG)
  Train the Logistic Regression model  and calculated the accuracy score before resampling the data.
  
  ![Before smapling Accuracy Score](./images/BefSampling.PNG)
  
  The acciracy score value calculated from logistic regression is very low that excepted.So we are moving into resampling techniques.
  
- ##### Random Oversampling
+ #####  Random Oversampling
  In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
     
     In this section, compared two oversampling algorithms to determine which algorithm results in the best performance.
     And oversampled the data using the naive random oversampling algorithm and the SMOTE algorithm.
     
-    ###### Naive random oversampling algorithm
+    
+    ######  Naive random oversampling algorithm
     
     ![Naive random oversampling Histogram](./images/Naive random oversampling-histogrem.PNG)
     
