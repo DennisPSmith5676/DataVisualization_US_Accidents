@@ -142,6 +142,33 @@ By default, Sklearn train_test_split will make random partitions for the two sub
     Balanced Accuracy Score:
  
     ![Naive random oversampling Balance Acuracy Score](./images/Naive random oversampling-BAS.PNG)
+    
+ ##### Undersampling
+ 
+ Undersampling is another technique to address class imbalance.Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased.
+ 
+ In this section, tested an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above.
+ undersampled the data using the Cluster Centroids algorithm.
+ 
+ ##### Combination of Over and Under Sampling
+ 
+ In this section, tested a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm 
+ 
+ ##### Balanced Random Forest Classifier
+ Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. 
+   Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally speaking, random forest models are very similar to their neural network counterparts. 
+   
+   Random forest models have been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data.
+ 
+ Random forest classifier Accuracy score:
+ 
+ ![Random forest classifier Accuracy score](./IMAGES/Random forest accuracy score.PNG)
+ 
+ Feature impotency:
+ 
+ ![Random forest classifier Accuracy score](./IMAGES/Random forest Feature impotacy.PNG)
+ 
+ after comparing all over sampled ,under sampled and Random Forest Classifier algorithems accuracy scores we desided to proceed with Navia Over Sampling Technique and Random Forest Classifier for our final US accident datset
 # ETL
 
 ![top 10](/IMAGES/ERD-US_Accident.png)
