@@ -148,7 +148,7 @@ By default, Sklearn train_test_split will make random partitions for the two sub
     
   ###### Naive Random Oversampling Algorithm
   
-  ![Naive random over sampling Histogram](./IMAGES/Naive random oversampling-histogrem.PNG)
+  ![Naive random over sampling Histogram](./IMAGES/Naive%20random%20oversampling.png)
    
  Balnce Accuracy Score:
  ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive random oversampling-BAS.PNG)
