@@ -82,6 +82,9 @@ Over and undersampling the data as the number of points per target variable is d
 Train some models on them and get feature importance for each model.
 
 ### Segment 2:
+
+In here we considered only 50000 records from US accidents dataset which can be found on below url
+
 #### ✓  Description of preliminary data preprocessing
 
 This dataset contains 49 columns which means we are dealing with 49 features in total which is a little bit too much. We will try to remove some of them and maybe combine some columns into one.
@@ -177,7 +180,9 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  
  ![Random forest classifier Accuracy score](./IMAGES/Random forest Feature impotacy.PNG)
  
- after comparing all over sampled ,under sampled and Random Forest Classifier algorithems accuracy scores we desided to proceed with Navia Over Sampling Technique and Random Forest Classifier for our final US accident datset
+ According to the graph the most importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng
+ 
+ After comparing accuracy scores on  over sampled ,under sampled and Random Forest Classifier algorithems,  we desided to proceed with Navia Over Sampling Technique and Random Forest Classifier for entire US accident datset.
 # ETL
 
 ![top 10](/IMAGES/ERD-US_Accident.png)
