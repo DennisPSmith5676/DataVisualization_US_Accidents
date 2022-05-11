@@ -143,18 +143,16 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  
  #####  Random Oversampling
  In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
-    
-    In this section, compared two oversampling algorithms to determine which algorithm results in the best performance.
-    And oversampled the data using the naive random oversampling algorithm and the SMOTE algorithm.
-    
-    
-    ######  Naive random oversampling algorithm
-    
-    ![Naive random oversampling Histogram](./IMAGES/Naive random oversampling-histogrem.PNG)
-    
-    Balanced Accuracy Score:
  
-    ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive random oversampling-BAS.PNG)
+ In this section,compared two oversampling algorithms to determine which algorithm results in the best performance.And oversampled the data using Naive random over sampling algorithm and the SMOTE algorithm.
+    
+  ###### Naive Random Oversampling Algorithm
+  
+  ![Naive random over sampling Histogram](./IMAGES/Naive random oversampling-histogrem.PNG)
+   
+ Balnce Accuracy Score:
+ ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive random oversampling-BAS.PNG)
+
     
  ##### Undersampling
  
