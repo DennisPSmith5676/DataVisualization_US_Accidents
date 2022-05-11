@@ -103,22 +103,22 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
  - Street column has 17079 unique values, so used binning to catogerised the values of the Street column,
     If value count of Street less than 20 then catogerize as "Other".
     
-    ![Bining Street](./IMAGES/biningStreet.PNG)
+    ![Bining Street](./IMAGES/biningStreet.png)
     
   - Used Label Encoding  to converte the catogerical columns  into a numeric form so as to convert them into the machine-readable form. 
     Machine learning algorithms can then decide in a better way how those labels must be operated.  
     
-    ![Label Encoded](./IMAGES/StreetLabelEncode.PNG)
+    ![Label Encoded](./IMAGES/StreetLabelEncode.png)
     
   - Check features variance
   - checked the variance for each feature in order to remove features with a very low variance beacuse they can't help to discriminate instances.
      
      
-   ![describe](./IMAGES/Xdescribe.PNG)
+   ![describe](./IMAGES/Xdescribe.png)
    
     Even though Precipitation and Pressure have a small variance, there is no need to drop them since they usually have small increments.
     
-    ![describe](./images/DescribePercipitation.PNG)
+    ![describe](./images/DescribePercipitation.png)
      
    
    
@@ -128,16 +128,16 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
 for training data and for testing data. With this function, we don't need to divide the dataset manually. 
 By default, Sklearn train_test_split will make random partitions for the two subsets.
 
-    ![describe](./IMAGES/splittoTrainTest.PNG)
+    ![describe](./IMAGES/splittoTrainTest.png)
     
  ####  ✓ Explanation of model choice
  
  The severity attribute as we can see from the  plot is highly unbalanced, the number of accident with the severity 1 is very small instead the number of accident with severity 2 is much higher.
  
- ![unbalanced dta](./IMAGES/unbalanced.PNG)
+ ![unbalanced dta](./IMAGES/unbalanced.png)
  Train the Logistic Regression model  and calculated the accuracy score before resampling the data.
  
- ![Before smapling Accuracy Score](./IMAGES/BefSampling.PNG)
+ ![Before smapling Accuracy Score](./IMAGES/BefSampling.png)
  
  The acciracy score value calculated from logistic regression is very low that excepted.So we are moving into resampling techniques.
  
@@ -151,7 +151,7 @@ By default, Sklearn train_test_split will make random partitions for the two sub
   ![Naive random over sampling Histogram](./IMAGES/Naive%20random%20oversampling.png)
    
  Balnce Accuracy Score:
- ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive random oversampling-BAS.PNG)
+ ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive random oversampling-BAS.png)
 
     
  ##### Undersampling
@@ -173,11 +173,11 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  
  Random forest classifier Accuracy score:
  
- ![Random forest classifier Accuracy score](./IMAGES/Random forest accuracy score.PNG)
+ ![Random forest classifier Accuracy score](./IMAGES/Random forest accuracy score.png)
  
  Feature impotency:
  
- ![Random forest classifier Accuracy score](./IMAGES/Random forest Feature impotacy.PNG)
+ ![Random forest classifier Accuracy score](./IMAGES/Random forest Feature impotacy.png)
  
  According to the graph the most importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng
  
