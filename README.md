@@ -90,7 +90,9 @@ Train some models on them and get feature importance for each model.
   - Dropped the Null values
 - Now this dataset contains 39 columns.
 
- ![dtypes](./IMAGES/mock_Dtypes.PNG)
+ ![dtypes](./IMAGES/IMAGES/mock_Dtypes.png)
+ 
+#### Description of preliminary feature engineering 
  
 # ETL
 
