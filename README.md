@@ -140,9 +140,9 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  
  In this section,compared two oversampling algorithms to determine which algorithm results in the best performance.And oversampled the data using Naive random over sampling algorithm and the SMOTE algorithm.
     
-  ###### Naive Random Oversampling Algorithm
+ ###### Naive Random Oversampling Algorithm
   
-  ![Naive random over sampling Histogram](./IMAGES/Naive%20random%20oversampling-BAS.png)
+  ![Naive random over sampling Histogram](./IMAGES/Naive%20random%20oversampling-histogrem.png)
    
  Balnce Accuracy Score:
  ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive%20random%20oversampling-BAS.png)
