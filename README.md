@@ -83,6 +83,7 @@ Train some models on them and get feature importance for each model.
 
 ### Segment 2:
 #### ✓  Description of preliminary data preprocessing
+
 This dataset contains 49 columns which means we are dealing with 49 features in total which is a little bit too much. We will try to remove some of them and maybe combine some columns into one.
  - Droped the non-beneficial columns'ID','Start_Time','End_Time','Zipcode' for machine learning process.
     - ID: since they don't carry any information for the severity
@@ -91,24 +92,29 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
   - Dropped the Null values
 - Now this dataset contains 39 columns.
 
- ![dtypes](./IMAGES/IMAGES/mock_Dtypes.png)
+ ![dtypes](./IMAGES/mock_Dtypes.png)
  
 #### ✓ Description of preliminary feature engineering 
+
  - Street column has 17079 unique values, so used binning to catogerised the values of the Street column,
     If value count of Street less than 20 then catogerize as "Other".
-    ![Bining Street](./images/biningStreet.PNG)
+    
+    ![Bining Street](./IMAGES/biningStreet.PNG)
+    
   - Used Label Encoding  to converte the catogerical columns  into a numeric form so as to convert them into the machine-readable form. 
     Machine learning algorithms can then decide in a better way how those labels must be operated.  
     
-    ![Label Encoded](./images/StreetLabelEncode.PNG)
+    ![Label Encoded](./IMAGES/StreetLabelEncode.PNG)
+    
   - Check features variance
    checked the variance for each feature in order to remove features with a very low variance beacuse they can't help to discriminate instances.
      
      
-   ![describe](./images/Xdescribe.PNG)
+   ![describe](./IMAGES/Xdescribe.PNG)
+   
      - Even though Precipitation and Pressure have a small variance, there is no need to drop them since they usually have small increments.
      
-         ![describe](./images/DescribePercipitation.PNG)
+         ![describe](./IMAGES/DescribePercipitation.PNG)
    
 #### ✓ Description of how data was split into training and testing sets
  
@@ -116,16 +122,16 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
 for training data and for testing data. With this function, we don't need to divide the dataset manually. 
 By default, Sklearn train_test_split will make random partitions for the two subsets.
 
-    ![describe](./images/splittoTrainTest.PNG)
+    ![describe](./IMAGES/splittoTrainTest.PNG)
     
  ####  ✓ Explanation of model choice
  
  The severity attribute as we can see from the  plot is highly unbalanced, the number of accident with the severity 1 is very small instead the number of accident with severity 2 is much higher.
  
- ![unbalanced dta](./images/unbalanced.PNG)
+ ![unbalanced dta](./IMAGES/unbalanced.PNG)
  Train the Logistic Regression model  and calculated the accuracy score before resampling the data.
  
- ![Before smapling Accuracy Score](./images/BefSampling.PNG)
+ ![Before smapling Accuracy Score](./IMAGES/BefSampling.PNG)
  
  The acciracy score value calculated from logistic regression is very low that excepted.So we are moving into resampling techniques.
  
@@ -138,11 +144,11 @@ By default, Sklearn train_test_split will make random partitions for the two sub
     
     ######  Naive random oversampling algorithm
     
-    ![Naive random oversampling Histogram](./images/Naive random oversampling-histogrem.PNG)
+    ![Naive random oversampling Histogram](./IMAGES/Naive random oversampling-histogrem.PNG)
     
     Balanced Accuracy Score:
  
-    ![Naive random oversampling Balance Acuracy Score](./images/Naive random oversampling-BAS.PNG)
+    ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive random oversampling-BAS.PNG)
     
  ##### Undersampling
  
