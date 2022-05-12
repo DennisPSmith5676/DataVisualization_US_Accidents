@@ -22,6 +22,7 @@ Dashboard - Revati Kulkarni
 * [Data Source](#data-source)
 * [ETL](#ETL)
 * [Data Cleaning](#data-cleaning)
+* [Database](#database)
 * [Machine Learning](#machine-learning)
 * [Data Visualization](#data-visualization)
 * [Reports Instructions](#reports-instructions)
@@ -64,8 +65,53 @@ Notes: The following files were created by Uma and Helenga to describe the proce
 [Machine Learning Process text file link](https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/MachineLearningModel/MLStage1.txt)
 
 # Data Cleaning
+	To clean and reformat our data we used PostgresSQL and Jypter Notebook.
+To get our data in a format that was needed, we had to use merge PostgresSQL and Jypter Notebook. 
 
-✓ Description of the communication protocols: We are meeting 5 times a week and reviewing all changes before we commit the code and files to the main branch.
+Using PostgresSQL we created clean_accident_data_df. !st we had to create the schema file. Then we loaded our database. This is what we used to do all of our analysis. 
+In addition to Database creation, we had to identify if we had any NaN in our data. This was most prevelant in street number column.
+So we dropped the Street number as well as the following columns:
+
+Astronomical_Twilight - Same data as Sunrise_Sunset
+Civil_Twilight - Same Data as Sunrise_Sunset
+Country - We are only doing usa
+Description - no useful information
+Nautical_Twilight - Same Data as Sunrise_Sunset
+
+
+WE also added the following columns to our database
+
+Year
+Month
+Day
+Hour
+Weekday
+
+Here is a link to our Database files:
+
+(https://umausdata.s3.amazonaws.com/DataFile/clean_accident_data_df.csv)
+
+In order to do our Data Visulization we created the Geography.db, Location.db and Weather.db. Here are the links to the  CSV file output.
+
+(https://umausdata.s3.amazonaws.com/DataFile/acci_geography.csv)
+
+(https://umausdata.s3.amazonaws.com/DataFile/acci_location.csv)
+
+(https://umausdata.s3.amazonaws.com/DataFile/acci_weather.csv)
+
+
+In out analysis we asked the following questions in addtion to the qustions from above.
+
+Accident_city_atstopsign_daytime
+Accident_city_atstopsign_night
+Count_Severity_Year
+count_hour
+count_year
+top10_accident_city
+top10_accident_state
+
+(https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/DataCleaning/DataBase/queries_final.sql)
+
 
 # Machine Learning
 
@@ -177,7 +223,9 @@ Balnce Accuracy Score:
  According to the graph the most importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng
  
  After comparing accuracy scores on  over sampled ,under sampled and Random Forest Classifier algorithems,  we desided to proceed with Navia Over Sampling Technique and Random Forest Classifier for entire US accident datset.
-# ETL
+# ETL 
+
+Here is our ERD diagram of the tables used in this analysis
 
 ![top 10](/IMAGES/ERD-US_Accident.png)
 
@@ -195,33 +243,26 @@ Through the EDA above, we can clearly notice that the class distribution in this
 
 We used RandomUndersampler method of the imblearn library as we have adequate points for those classes and it wouldn’t hurt to just randomly get rid of some of those points and use SMOTE method to over sample as it is the most robust of all the over sampling methods currently available to us. This process can be done in only a few lines of code as given below:
 
+
+We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
+
 # Data Visualization
 
 ![top 10](/IMAGES/image.png)
 
-Modelling part
-We tested 6 machine learning models along with variations between encoding types and including and excluding some of the custom features, the main models I used are the following:
-
-1. Random Forest: Random forest is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result. So, we can say that this is just an ensemble of decision trees. This doesn’t require much hyper-parameter tuning.
+# Reports and Instructions
   
-2. SMOTEENN: Used to perform over-sampling using SMOTE and cleaning using ENN. Combine over- and under-sampling using SMOTE and (ENN) Edited Nearest Neighbours.  
-  
-3. SMOTE works by utilizing a k-nearest neighbour algorithm to create synthetic data. SMOTE first start by choosing random data from the minority class, then k-nearest neighbours from the data are set. Synthetic data would then be made between the random data and the randomly selected k-nearest neighbour)
-
-4. KMEANS:k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
-
-5. Naive Random Oversampling: Naïve Bayes is a simple learning algorithm that utilizes Bayes’ rule together with a strong assumption that the attributes are conditionally independent given the class. While this independence assumption is often violated in practice, naïve Bayes nonetheless often delivers competitive classification accuracy. Coupled with its computational efficiency and many other desirable features, this leads to naïve Bayes being widely applied in practice.
-
-
-6. ClusterCentroids resampler(Undersampling)
-
-We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
-  # Reports Instructions
-  
-  ## google Slides
+## Google Slides - This is the link top our presentation.
   [Google Slides file link](https://docs.google.com/presentation/d/1BbW_9SDosgocGcgVJXc93XC9Y5BanCLbL863OFvCy94/edit?usp=sharing)
-  
-Further Improvements:
+
+## Comunication  
+✓ Description of the communication protocols: We are meeting 5 times a week and reviewing all changes before we commit the code and files to the main branch.
+
+## Instructions
+	In order for our presentation to work you will need to use ther following link:
+ 
+
+## Further Improvements:
 One-hot encoding can be tried for some of the features.
 Weighted XGBoost and other similar models can be implemented instead of resampling the dataset.
 Some basic MLP model to compare against our best model here.
