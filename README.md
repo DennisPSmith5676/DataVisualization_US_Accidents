@@ -25,7 +25,7 @@ Dashboard - Revati Kulkarni
 * [Database](#database)
 * [Machine Learning](#machine-learning)
 * [Data Visualization](#data-visualization)
-* [Reports Instructions](#reports-instructions)
+* [Reports and Instructions](#reports-instructions)
 
 # General info
 
