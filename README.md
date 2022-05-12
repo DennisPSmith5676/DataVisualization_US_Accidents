@@ -99,7 +99,7 @@ In order to do our Data Visulization we created the Geography.db, Location.db an
 
 (https://umausdata.s3.amazonaws.com/DataFile/acci_weather.csv)
 
-
+# Database
 In out analysis we asked the following questions in addtion to the qustions from above.
 
 Accident_city_atstopsign_daytime
