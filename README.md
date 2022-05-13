@@ -145,9 +145,10 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
  
 #### ✓ Description of preliminary feature engineering 
 
+After deleting the non-benifitial columns,this dataset contains 7 catogerical i.e (street,side,city,county,state,sunrise_sunset & month)
 
-	After deleting the non-benifitial columns,this dataset contains 7 catogerical i.e (street,side,city,county,state,sunrise_sunset & Month).
 ##### Binning
+
 Binning method is used to smoothing data or to handle noisy data.
  - If we consider all catogerical columns, the Street column as a highst nunber of unique values, that is 17079. So used binning to catogerised the values of the Street column,
  - valune count less than 20 catogerized as "other", in the binning process. the reason for use less then 20, becasue none of the major highways was not showed up on the less than 20 category. 
