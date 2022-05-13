@@ -194,7 +194,7 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  #####  Random Oversampling
  In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
  
- In this section,compared two oversampling algorithms to determine which algorithm results in the best performance.And oversampled the data using Naive random over sampling algorithm and the SMOTE algorithm.
+ Compared two oversampling algorithms Naive random over sampling algorithm and the SMOTE algorithm to determine which algorithm results in the best performance.
     
  ###### Naive Random Oversampling Algorithm
   
@@ -209,12 +209,12 @@ Balnce Accuracy Score:
  
  Undersampling is another technique to address class imbalance.Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased.
  
- In this section, tested an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above.
- undersampled the data using the Cluster Centroids algorithm.
+ Tested an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above.
+ undersampled the data using the Cluster Centroids algorithm and it only gave accuracy score of 39.65%.
  
  ##### Combination of Over and Under Sampling
  
- In this section, tested a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm 
+ Combination over- and under-sampling algorithm used to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm and gave 44.58% of accurasy score.
  
  ##### Balanced Random Forest Classifier
  
@@ -233,7 +233,7 @@ Balnce Accuracy Score:
  
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20Feature%20impotacy.png)
  
- According to the graph the topt 10 importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng,Pressure,State,City,County,Huminidity and Winchill.
+ According to the graph the top 10 importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng,Pressure,State,City,County,Huminidity and Winchill.
  
 And least impotence features are Roundabout,Turning_Loop,Bump,Traffic_Calming and 'No_Exit'.
 
@@ -247,7 +247,7 @@ Comparing All Accurasy scores:
 
 ![Comparing All Accurasy scores](./IMAGES/AllAccuracy.png)
 
- After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithems and Ensemble AdaBoost classifier we desided to proceed withEasy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident datset.
+ After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithems and Ensemble AdaBoost classifier we desided to proceed with Easy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident datset.
 
 
 ![DifferentMLAlgorithem Types](./IMAGES/difftypeofML.png)
