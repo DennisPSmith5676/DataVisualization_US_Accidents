@@ -189,11 +189,7 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  
  ![unbalanced dta](./IMAGES/unbalanced.png)
  
- Train the Logistic Regression model  and calculated the accuracy score before resampling the data.
- 
- ![Before smapling Accuracy Score](./IMAGES/BefSampling.png)
- 
- The acciracy score value calculated from logistic regression is very low that excepted.So we are moving into resampling techniques.
+ The simplest way to fix imbalanced dataset is simply balancing them by oversampling instances of the minority class or undersampling instances of the majority class.
  
  #####  Random Oversampling
  In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
