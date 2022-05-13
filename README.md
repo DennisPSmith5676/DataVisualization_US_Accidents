@@ -217,6 +217,7 @@ Balnce Accuracy Score:
  In this section, tested a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm 
  
  ##### Balanced Random Forest Classifier
+ 
  Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. 
    Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally speaking, random forest models are very similar to their neural network counterparts. 
    
@@ -236,7 +237,7 @@ Balnce Accuracy Score:
  
 And least impotence features are Roundabout,Turning_Loop,Bump,Traffic_Calming and 'No_Exit'.
 
-Easy Ensemble AdaBoost classifier
+##### Easy Ensemble AdaBoost classifier
 
 AdaBoost is a boosting ensemble model and works especially well with the decision tree. Boosting model's key is learning from the previous mistakes, e.g. misclassification data points. AdaBoost learns from the mistakes by increasing the weight of misclassified data points.
 
