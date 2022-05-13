@@ -227,6 +227,8 @@ Balnce Accuracy Score:
  
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20accuracy%20score.png)
  
+ We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
+ 
  Great thing Random Forest clasifier is  it gives most importence features and it has emerged as a quite useful algorithm that can handle the feature selection issue even with a higher number of variables.
  
  Feature impotency:
