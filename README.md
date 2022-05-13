@@ -133,7 +133,7 @@ In here we considered only 50000 records from US accidents dataset which can be 
 https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
 
 #### ✓  Description of preliminary data preprocessing
-
+code for this section:
 This dataset contains 49 columns which means we are dealing with 49 features in total which is little bit too much. We will try to remove some of them and maybe merge some columns in a meaningful way.
  - Droped the non-beneficial columns such as 'ID','Start_Time','End_Time','Zipcode' for machine learning process.
     - ID : Since ID doesn't carry any information for the severity.
