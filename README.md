@@ -162,7 +162,7 @@ Binning method is used to smoothing data or to handle noisy data.
         
 ##### Label Encoding vs  One-Hot Encoding
 
- ![convert catogericaltonumerical](./IMAGES/why toencode.png)
+ ![convert catogericaltonumerical](./IMAGES/why%20toencode.png)
 
 Machines Learning Algorithems  understand numbers, not text. We need to convert each text category to numbers in order for the machine learning  to process them using mathematical equations. 
 
