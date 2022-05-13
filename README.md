@@ -144,6 +144,8 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
 
  
 #### ✓ Description of preliminary feature engineering 
+
+
 	After deleting the non-benifitial columns,this dataset contains 7 catogerical i.e (street,side,city,county,state,sunrise_sunset & Month).
 ##### Binning
 Binning method is used to smoothing data or to handle noisy data.
