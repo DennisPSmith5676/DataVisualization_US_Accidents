@@ -145,14 +145,28 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
  
 #### ✓ Description of preliminary feature engineering 
 
- - Street column has 17079 unique values, so used binning to catogerised the values of the Street column,
+##### Binning
+Binning method is used to smoothing data or to handle noisy data.
+ - If we consider all catogerical columns unique values Street column has highest unique values 17079. so used binning to catogerised the values of the Street column,
     If value count of Street less than 20 then catogerize as "Other".
     
     ![Bining Street](./IMAGES/biningStreet.png)
     
-  - Used Label Encoding  to converte the catogerical columns  into a numeric form so as to convert them into the machine-readable form. 
-    Machine learning algorithms can then decide in a better way how those labels must be operated.  
-    
+##### Label Encoding vs  One-Hot Encoding
+
+After deleting the non-benifitial columns,this dataset contains 7 catogerical i.e (street,side,city,county,state,sunrise_sunset & Month).
+
+Machines Learning Algorithems  understand numbers, not text. We need to convert each text category to numbers in order for the machine learning  to process them using mathematical equations. 
+
+Ever wondered how we can do that? What are the different ways?This is where Label Encoding and One-Hot Encoding come into the picture. 
+
+Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering.
+
+One-Hot Encoding is another popular technique for treating categorical variables. It simply creates additional features based on the number of unique values in the categorical feature. Every unique value in the category will be added as a feature.
+
+As this is very large data set with 39 columns and number unique values in  each catogerical column is quite large as one-hot encoding can lead to high memory consumption.considering that we choose Label Encoding using Scikit-Learn libreray to convert catogerical values to numerical.
+  
+   
     ![Label Encoded](./IMAGES/StreetLabelEncode.png)
     
   - Features variance
