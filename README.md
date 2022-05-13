@@ -226,12 +226,17 @@ Balnce Accuracy Score:
  
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20accuracy%20score.png)
  
+ Great thing Random Forest clasifier is  it gives most importence features and it has emerged as a quite useful algorithm that can handle the feature selection issue even with a higher number of variables.
+ 
  Feature impotency:
  
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20Feature%20impotacy.png)
  
- According to the graph the most importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng
+ According to the graph the topt 10 importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng,Pressure,State,City,County,Huminidity and Winchill.
  
+And least impotence features are Roundabout,Turning_Loop,Bump,Traffic_Calming and 'No_Exit'.
+
+Easy Ensemble AdaBoost classifier
  After comparing accuracy scores on  over sampled ,under sampled and Random Forest Classifier algorithems,  we desided to proceed with Navia Over Sampling Technique and Random Forest Classifier for entire US accident datset.
 # ETL 
 
