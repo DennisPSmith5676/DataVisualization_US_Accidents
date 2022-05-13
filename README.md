@@ -25,7 +25,7 @@ Dashboard - Revati Kulkarni
 * [Database](#database)
 * [Machine Learning](#machine-learning)
 * [Data Visualization](#data-visualization)
-* [Reports Instructions](#reports-instructions)
+* [Reports and Instructions](#reports-instructions)
 
 # General info
 
@@ -99,7 +99,11 @@ In order to do our Data Visulization we created the Geography.db, Location.db an
 
 (https://umausdata.s3.amazonaws.com/DataFile/acci_weather.csv)
 
+<<<<<<< HEAD
 
+=======
+# Database
+>>>>>>> b2d6be4382617f6eb4439a1d0eac114096deb1a5
 In out analysis we asked the following questions in addtion to the qustions from above.
 
 Accident_city_atstopsign_daytime
@@ -134,33 +138,46 @@ https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
 
 #### ✓  Description of preliminary data preprocessing
 
-This dataset contains 49 columns which means we are dealing with 49 features in total which is a little bit too much. We will try to remove some of them and maybe combine some columns into one.
- - Droped the non-beneficial columns'ID','Start_Time','End_Time','Zipcode' for machine learning process.
-    - ID: since they don't carry any information for the severity
-    - Start_Time,End_Time :because it was decomposed by the time features added before (day, month, weekday,Year).
-    - Zipcode :because we just focus on the City,County,state where the accident happened.
-  - Dropped the Null values
-- Now this dataset contains 39 columns.
+code for this section:https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/MachineLearningModel/mock_accident.ipynb
 
- ![dtypes](./IMAGES/mock_Dtypes.png)
+This dataset contains 49 columns which means we are dealing with 49 features in total which is little bit too much. We will try to remove some of them and maybe merge some columns in a meaningful way.
+ - Droped the non-beneficial columns such as 'ID','Start_Time','End_Time','Zipcode' for machine learning process.
+    - ID : Since ID doesn't carry any information for the severity.
+    - Start_Time,End_Time : Because it has alreay been decomposed to calcalculate other time features such as day, month, weekday and Year.
+    - Zipcode : Because we just focus on the City,County and State where the accident happened.
+ - Dropped the Null values
+ - After the pre-processing, the dataset now contains 39 columns.
+
  
 #### ✓ Description of preliminary feature engineering 
 
- - Street column has 17079 unique values, so used binning to catogerised the values of the Street column,
-    If value count of Street less than 20 then catogerize as "Other".
-    
-    ![Bining Street](./IMAGES/biningStreet.png)
-    
-  - Used Label Encoding  to converte the catogerical columns  into a numeric form so as to convert them into the machine-readable form. 
-    Machine learning algorithms can then decide in a better way how those labels must be operated.  
-    
-    ![Label Encoded](./IMAGES/StreetLabelEncode.png)
-    
-  - Features variance
-  - checked the variance for each feature in order to remove features with a very low variance beacuse they can't help to discriminate instances.
-     
-     
-   ![describe](./IMAGES/Xdescribe.png)
+After deleting the non-benifitial columns,this dataset contains 7 catogerical columns. i.e (street,side,city,county,state,sunrise_sunset & month)
+
+##### Binning
+
+Binning method is used to smoothing data or to handle noisy data.
+ - If we consider all catogerical columns, the Street column as a highst nunber of unique values, that is 17079. So used binning to catogerised the values of the Street column,
+  
+ - Choose value count of Street less than 20 then catogerize as "Other".the reason to chose less than 20 is less than 20 strrets doesn't contain any major highways.
+        
+##### Label Encoding vs  One-Hot Encoding
+
+ ![convert catogericaltonumerical](./IMAGES/why toencode.png)
+
+Machines Learning Algorithems  understand numbers, not text. We need to convert each text category to numbers in order for the machine learning  to process them using mathematical equations. 
+
+Ever wondered how we can do that? What are the different ways?This is where Label Encoding and One-Hot Encoding come into the picture. 
+
+Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering.
+
+One-Hot Encoding is another popular technique for treating categorical variables. It simply creates additional features based on the number of unique values in the categorical feature. Every unique value in the category will be added as a feature.
+
+![labelencodeVsonehot](./IMAGES/labelencodevsonehot.png)
+
+As this is very large data set with 39 columns and number of unique values in  each catogerical column is quite large as one-hot encoding can lead to high memory consumption.Considering that we choose Label Encoding using Scikit-Learn libreray to convert catogerical values to numerical.
+
+Though label encoding is straight but it has the disadvantage that the numeric values can be misinterpreted by algorithms as having some sort of hierarchy/order in them.
+
   
 #### ✓ Description of how data was split into training and testing sets
  
@@ -175,16 +192,13 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  The severity attribute as we can see from the  plot is highly unbalanced, the number of accident with the severity 1 is very small instead the number of accident with severity 2 is much higher.
  
  ![unbalanced dta](./IMAGES/unbalanced.png)
- Train the Logistic Regression model  and calculated the accuracy score before resampling the data.
  
- ![Before smapling Accuracy Score](./IMAGES/BefSampling.png)
- 
- The acciracy score value calculated from logistic regression is very low that excepted.So we are moving into resampling techniques.
+ The simplest way to fix imbalanced dataset is simply balancing them by oversampling instances of the minority class or undersampling instances of the majority class.
  
  #####  Random Oversampling
  In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
  
- In this section,compared two oversampling algorithms to determine which algorithm results in the best performance.And oversampled the data using Naive random over sampling algorithm and the SMOTE algorithm.
+ Compared two oversampling algorithms Naive random over sampling algorithm and the SMOTE algorithm to determine which algorithm results in the best performance.
     
  ###### Naive Random Oversampling Algorithm
   
@@ -199,14 +213,15 @@ Balnce Accuracy Score:
  
  Undersampling is another technique to address class imbalance.Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased.
  
- In this section, tested an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above.
- undersampled the data using the Cluster Centroids algorithm.
+ Tested an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above.
+ undersampled the data using the Cluster Centroids algorithm and it only gave accuracy score of 39.65%.
  
  ##### Combination of Over and Under Sampling
  
- In this section, tested a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm 
+ Combination over- and under-sampling algorithm used to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm and gave 44.58% of accurasy score.
  
  ##### Balanced Random Forest Classifier
+ 
  Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. 
    Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally speaking, random forest models are very similar to their neural network counterparts. 
    
@@ -216,13 +231,39 @@ Balnce Accuracy Score:
  
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20accuracy%20score.png)
  
+ We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
+ 
+ Great thing Random Forest clasifier is  it gives most importence features and it has emerged as a quite useful algorithm that can handle the feature selection issue even with a higher number of variables.
+ 
  Feature impotency:
  
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20Feature%20impotacy.png)
  
- According to the graph the most importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng
+ According to the graph the top 10 importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng,Pressure,State,City,County,Huminidity and Winchill.
  
+<<<<<<< HEAD
  After comparing accuracy scores on  over sampled ,under sampled and Random Forest Classifier algorithems,  we desided to proceed with Navia Over Sampling Technique and Random Forest Classifier for entire US accident datset.
+=======
+And least impotence features are Roundabout,Turning_Loop,Bump,Traffic_Calming and 'No_Exit'.
+
+##### Easy Ensemble AdaBoost classifier
+
+AdaBoost is a boosting ensemble model and works especially well with the decision tree. Boosting model's key is learning from the previous mistakes, e.g. misclassification data points. AdaBoost learns from the mistakes by increasing the weight of misclassified data points.
+
+Ensemble AdaBoost classifier also gave 61% accuracy score for mock accidents dataset.
+
+Comparing All Accurasy scores:
+
+![Comparing All Accurasy scores](./IMAGES/AllAccuracy.png)
+
+ After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithems and Ensemble AdaBoost classifier we desided to proceed with Easy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident datset.
+
+
+![DifferentMLAlgorithem Types](./IMAGES/difftypeofML.png)
+
+
+
+>>>>>>> b2d6be4382617f6eb4439a1d0eac114096deb1a5
 # ETL 
 
 Here is our ERD diagram of the tables used in this analysis
