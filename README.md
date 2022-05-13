@@ -237,7 +237,22 @@ Balnce Accuracy Score:
 And least impotence features are Roundabout,Turning_Loop,Bump,Traffic_Calming and 'No_Exit'.
 
 Easy Ensemble AdaBoost classifier
- After comparing accuracy scores on  over sampled ,under sampled and Random Forest Classifier algorithems,  we desided to proceed with Navia Over Sampling Technique and Random Forest Classifier for entire US accident datset.
+
+AdaBoost is a boosting ensemble model and works especially well with the decision tree. Boosting model's key is learning from the previous mistakes, e.g. misclassification data points. AdaBoost learns from the mistakes by increasing the weight of misclassified data points.
+
+Ensemble AdaBoost classifier also gave 61% accuracy score for mock accidents dataset.
+
+Comparing All Accurasy scores:
+
+![Comparing All Accurasy scores](./IMAGES/AllAccuracy.png)
+
+ After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithems and Ensemble AdaBoost classifier we desided to proceed withEasy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident datset.
+
+
+![DifferentMLAlgorithem Types](./IMAGES/difftypeofML.png)
+
+
+
 # ETL 
 
 Here is our ERD diagram of the tables used in this analysis
