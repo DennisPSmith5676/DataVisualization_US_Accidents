@@ -241,9 +241,6 @@ Balnce Accuracy Score:
  
  According to the graph the top 10 importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng,Pressure,State,City,County,Huminidity and Winchill.
  
-<<<<<<< HEAD
- After comparing accuracy scores on  over sampled ,under sampled and Random Forest Classifier algorithems,  we desided to proceed with Navia Over Sampling Technique and Random Forest Classifier for entire US accident datset.
-=======
 And least impotence features are Roundabout,Turning_Loop,Bump,Traffic_Calming and 'No_Exit'.
 
 ##### Easy Ensemble AdaBoost classifier
@@ -263,7 +260,7 @@ Comparing All Accurasy scores:
 
 
 
->>>>>>> b2d6be4382617f6eb4439a1d0eac114096deb1a5
+
 # ETL 
 
 Here is our ERD diagram of the tables used in this analysis
