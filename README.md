@@ -156,7 +156,7 @@ Binning method is used to smoothing data or to handle noisy data.
         
 ##### Label Encoding vs  One-Hot Encoding
 
-After deleting the non-benifitial columns,this dataset contains 7 catogerical i.e (street,side,city,county,state,sunrise_sunset & Month).
+ ![convert catogericaltonumerical](./IMAGES/why toencode.png)
 
 Machines Learning Algorithems  understand numbers, not text. We need to convert each text category to numbers in order for the machine learning  to process them using mathematical equations. 
 
@@ -165,6 +165,8 @@ Ever wondered how we can do that? What are the different ways?This is where Labe
 Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering.
 
 One-Hot Encoding is another popular technique for treating categorical variables. It simply creates additional features based on the number of unique values in the categorical feature. Every unique value in the category will be added as a feature.
+
+![labelencodeVsonehot](./IMAGES/labelencodevsonehot)
 
 As this is very large data set with 39 columns and number unique values in  each catogerical column is quite large as one-hot encoding can lead to high memory consumption.considering that we choose Label Encoding using Scikit-Learn libreray to convert catogerical values to numerical.
 
