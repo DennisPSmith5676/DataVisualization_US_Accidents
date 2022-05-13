@@ -168,7 +168,7 @@ One-Hot Encoding is another popular technique for treating categorical variables
 
 ![labelencodeVsonehot](./IMAGES/labelencodevsonehot.png)
 
-As this is very large data set with 39 columns and number unique values in  each catogerical column is quite large as one-hot encoding can lead to high memory consumption.considering that we choose Label Encoding using Scikit-Learn libreray to convert catogerical values to numerical.
+As this is very large data set with 39 columns and number of unique values in  each catogerical column is quite large as one-hot encoding can lead to high memory consumption.Considering that we choose Label Encoding using Scikit-Learn libreray to convert catogerical values to numerical.
 
 Though label encoding is straight but it has the disadvantage that the numeric values can be misinterpreted by algorithms as having some sort of hierarchy/order in them.
 
