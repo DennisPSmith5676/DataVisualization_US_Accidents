@@ -142,7 +142,6 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
   - Dropped the Null values
 - Now this dataset contains 39 columns.
 
- ![dtypes](./IMAGES/mock_Dtypes.png)
  
 #### ✓ Description of preliminary feature engineering 
 
