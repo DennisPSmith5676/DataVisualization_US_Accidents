@@ -165,15 +165,8 @@ Label Encoding is a popular encoding technique for handling categorical variable
 One-Hot Encoding is another popular technique for treating categorical variables. It simply creates additional features based on the number of unique values in the categorical feature. Every unique value in the category will be added as a feature.
 
 As this is very large data set with 39 columns and number unique values in  each catogerical column is quite large as one-hot encoding can lead to high memory consumption.considering that we choose Label Encoding using Scikit-Learn libreray to convert catogerical values to numerical.
-  
-   
-    ![Label Encoded](./IMAGES/StreetLabelEncode.png)
-    
-  - Features variance
-  - checked the variance for each feature in order to remove features with a very low variance beacuse they can't help to discriminate instances.
-     
-     
-   ![describe](./IMAGES/Xdescribe.png)
+
+
   
 #### ✓ Description of how data was split into training and testing sets
  
