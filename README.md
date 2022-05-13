@@ -134,21 +134,22 @@ https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
 
 #### ✓  Description of preliminary data preprocessing
 
-This dataset contains 49 columns which means we are dealing with 49 features in total which is a little bit too much. We will try to remove some of them and maybe combine some columns into one.
- - Droped the non-beneficial columns'ID','Start_Time','End_Time','Zipcode' for machine learning process.
-    - ID: since they don't carry any information for the severity
-    - Start_Time,End_Time :because it was decomposed by the time features added before (day, month, weekday,Year).
-    - Zipcode :because we just focus on the City,County,state where the accident happened.
-  - Dropped the Null values
-- Now this dataset contains 39 columns.
+This dataset contains 49 columns which means we are dealing with 49 features in total which is little bit too much. We will try to remove some of them and maybe merge some columns in a meaningful way.
+ - Droped the non-beneficial columns such as 'ID','Start_Time','End_Time','Zipcode' for machine learning process.
+    - ID : Since ID doesn't carry any information for the severity.
+    - Start_Time,End_Time : Because it has alreay been decomposed to calcalculate other time features such as day, month, weekday and Year.
+    - Zipcode : Because we just focus on the City,County and State where the accident happened.
+ - Dropped the Null values
+ - After the pre-processing, the dataset now contains 39 columns.
 
  
 #### ✓ Description of preliminary feature engineering 
-
+	After deleting the non-benifitial columns,this dataset contains 7 catogerical i.e (street,side,city,county,state,sunrise_sunset & Month).
 ##### Binning
 Binning method is used to smoothing data or to handle noisy data.
- - If we consider all catogerical columns unique values Street column has highest unique values 17079. so used binning to catogerised the values of the Street column,
-    choose value count of Street less than 20 then catogerize as "Other".the reason to chose less than 20 is less than 20 strrets doesn't contain any major highways.
+ - If we consider all catogerical columns, the Street column as a highst nunber of unique values, that is 17079. So used binning to catogerised the values of the Street column,
+ - valune count less than 20 catogerized as "other", in the binning process. the reason for use less then 20, becasue none of the major highways was not showed up on the less than 20 category. 
+ - Choose value count of Street less than 20 then catogerize as "Other".the reason to chose less than 20 is less than 20 strrets doesn't contain any major highways.
         
 ##### Label Encoding vs  One-Hot Encoding
 
