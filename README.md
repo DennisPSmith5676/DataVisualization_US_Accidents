@@ -148,10 +148,8 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
 ##### Binning
 Binning method is used to smoothing data or to handle noisy data.
  - If we consider all catogerical columns unique values Street column has highest unique values 17079. so used binning to catogerised the values of the Street column,
-    If value count of Street less than 20 then catogerize as "Other".
-    
-    ![Bining Street](./IMAGES/biningStreet.png)
-    
+    choose value count of Street less than 20 then catogerize as "Other".the reason to chose less than 20 is less than 20 strrets doesn't contain any major highways.
+        
 ##### Label Encoding vs  One-Hot Encoding
 
 After deleting the non-benifitial columns,this dataset contains 7 catogerical i.e (street,side,city,county,state,sunrise_sunset & Month).
