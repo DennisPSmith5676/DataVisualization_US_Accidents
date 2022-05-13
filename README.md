@@ -133,7 +133,9 @@ In here we considered only 50000 records from US accidents dataset which can be 
 https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
 
 #### ✓  Description of preliminary data preprocessing
-code for this section:
+
+code for this section:https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/MachineLearningModel/mock_accident.ipynb
+
 This dataset contains 49 columns which means we are dealing with 49 features in total which is little bit too much. We will try to remove some of them and maybe merge some columns in a meaningful way.
  - Droped the non-beneficial columns such as 'ID','Start_Time','End_Time','Zipcode' for machine learning process.
     - ID : Since ID doesn't carry any information for the severity.
@@ -186,6 +188,7 @@ By default, Sklearn train_test_split will make random partitions for the two sub
  The severity attribute as we can see from the  plot is highly unbalanced, the number of accident with the severity 1 is very small instead the number of accident with severity 2 is much higher.
  
  ![unbalanced dta](./IMAGES/unbalanced.png)
+ 
  Train the Logistic Regression model  and calculated the accuracy score before resampling the data.
  
  ![Before smapling Accuracy Score](./IMAGES/BefSampling.png)
