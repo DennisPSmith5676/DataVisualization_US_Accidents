@@ -42,20 +42,35 @@ Team members have drafted their project, including the following:
 
 ✓ Questions they hope to answer with the data: US-Accidents can be used for numerous applications such as real-time car accident prediction, studying car accidents hotspot locations, casualty analysis and extracting cause and effect rules to predict car accidents, and studying the impact of precipitation or other environmental stimuli on accident occurrence. The most recent release of the dataset can also be useful to study the impact of COVID-19 on traffic behavior and accidents. Our team is planning to find the answers to questions such as:
 * Which City in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
+ 
 * Done in PostgresSQL
+ 
 ![last 5 Years](/IMAGES/count_year.png)
+
 * Which are the top 10 accident prone streets in US ?
+ 
 *  Done in PostgresSQL
+  
 ![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
+
 * Per Day averagely how many road accidents took place in US ?
+
 * Done in PostgresSQL
+
 ![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
+
 * In which hours of the day most accidents happened in US ?
+ 
 ![top 10](/IMAGES/count_hour.png)
+
 * Tableu Bar Chart
+
 ![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
+
 * Which are the top 10 States with most no. of road accident cases in US ?
+ 
  Done in PostgresSQL
+ 
  ![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
 -
 Notes: The following files were created by Uma and Helenga to describe the process for Data Prep/Cleaning and Machine Learning Stage 1
