@@ -135,7 +135,7 @@ top10_accident_city
 
 top10_accident_state
 
-![top 10](/IMAGES/top10_accident_state.png.png)
+![top 10](/IMAGES/top10_accident_state.png)
 
 Here is the code to th above visualizations:
 
