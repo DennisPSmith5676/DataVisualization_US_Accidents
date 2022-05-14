@@ -20,7 +20,7 @@ Dashboard - Revati Kulkarni
 * [General info](#general-info)
 * [Questions](#questions)
 * [Data Source](#data-source)
-* [ETL](#ETL)
+* [ERD](#ERD)
 * [Data Cleaning](#data-cleaning)
 * [Database](#database)
 * [Machine Learning](#machine-learning)
@@ -42,23 +42,50 @@ Team members have drafted their project, including the following:
 
 ✓ Questions they hope to answer with the data: US-Accidents can be used for numerous applications such as real-time car accident prediction, studying car accidents hotspot locations, casualty analysis and extracting cause and effect rules to predict car accidents, and studying the impact of precipitation or other environmental stimuli on accident occurrence. The most recent release of the dataset can also be useful to study the impact of COVID-19 on traffic behavior and accidents. Our team is planning to find the answers to questions such as:
 * Which City in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
+ 
 * Done in PostgresSQL
+ 
 ![last 5 Years](/IMAGES/count_year.png)
+
+![last 5 Years](/IMAGES/)
+
+
 * Which are the top 10 accident prone streets in US ?
+ 
 *  Done in PostgresSQL
-![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
+  
+![top 10](/IMAGES/)
+
+![top 10](/IMAGES/)
+
 * Per Day averagely how many road accidents took place in US ?
+
+![DayAvg](/IMAGES/)
+
 * Done in PostgresSQL
-![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
+![top 10](/IMAGES/)
+
+![top 10](/IMAGES/)
+
 * In which hours of the day most accidents happened in US ?
+ 
 ![top 10](/IMAGES/count_hour.png)
+
+![top 10](/IMAGES/)
+
 * Tableu Bar Chart
+
 ![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
+
 * Which are the top 10 States with most no. of road accident cases in US ?
+
+![top 10](/IMAGES/)
+
+![top 10](/IMAGES/)
+
  Done in PostgresSQL
- ![top 10](/IMAGES/New-York-City-Car-Accident-Statistics-1-300x200.webp)
--
-Notes: The following files were created by Uma and Helenga to describe the process for Data Prep/Cleaning and Machine Learning Stage 1
+ 
+ Notes: The following files were created by Uma and Helenga to describe the process for Data Prep/Cleaning and Machine Learning Stage 1
 
 [Data Prep/Cleaning Process text file link](https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/DataCleaning/DataClean/ETLprocess.txt)
 
@@ -99,20 +126,37 @@ In order to do our Data Visulization we created the Geography.db, Location.db an
 
 (https://umausdata.s3.amazonaws.com/DataFile/acci_weather.csv)
 
-<<<<<<< HEAD
-
-=======
 # Database
->>>>>>> b2d6be4382617f6eb4439a1d0eac114096deb1a5
+
 In out analysis we asked the following questions in addtion to the qustions from above.
 
 Accident_city_atstopsign_daytime
+
+![top 10](/IMAGES/)
+
 Accident_city_atstopsign_night
+
+![top 10](/IMAGES/)
+
 Count_Severity_Year
+
+![top 10](/IMAGES/)
+
 count_hour
+
+![top 10](/IMAGES/)
+
 count_year
+
+![top 10](/IMAGES/)
+
 top10_accident_city
+
+![top 10](/IMAGES/)
+
 top10_accident_state
+
+![top 10](/IMAGES/)
 
 (https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/DataCleaning/DataBase/queries_final.sql)
 
@@ -258,15 +302,6 @@ Comparing All Accurasy scores:
 
 ![DifferentMLAlgorithem Types](./IMAGES/difftypeofML.png)
 
-
-
-
-# ETL 
-
-Here is our ERD diagram of the tables used in this analysis
-
-![top 10](/IMAGES/ERD-US_Accident.png)
-
 Model building and feature engineering
 We now have some necessary insights into the dataset so, we can move on to modelling and experimentation along with some feature engineering since this is a machine learning task.
 
@@ -284,14 +319,39 @@ We used RandomUndersampler method of the imblearn library as we have adequate po
 
 We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
 
+
+# ERD 
+
+Here is our ERD diagram of the tables used in this project
+
+![top 10](/IMAGES/ERD-US_Accident.png)
+
+
 # Data Visualization
+
+![top 10](/IMAGES/image.png)
+
+![top 10](/IMAGES/image.png)
+
+![top 10](/IMAGES/image.png)
+
+![top 10](/IMAGES/image.png)
+
+![top 10](/IMAGES/image.png)
+
+![top 10](/IMAGES/image.png)
+
+![top 10](/IMAGES/image.png)
 
 ![top 10](/IMAGES/image.png)
 
 # Reports and Instructions
   
-## Google Slides - This is the link top our presentation.
+## Google Slides - This is the link to our presentation.
   [Google Slides file link](https://docs.google.com/presentation/d/1BbW_9SDosgocGcgVJXc93XC9Y5BanCLbL863OFvCy94/edit?usp=sharing)
+
+## Tableau Slides - This is the link to our images and visulizations from Tableau.
+[Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/County?publish=yes)
 
 ## Comunication  
 ✓ Description of the communication protocols: We are meeting 5 times a week and reviewing all changes before we commit the code and files to the main branch.
