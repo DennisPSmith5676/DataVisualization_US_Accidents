@@ -1,0 +1,2 @@
+#aws password
+awspassword = 'usaccident'
