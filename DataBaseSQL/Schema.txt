@@ -1,0 +1,45 @@
+-- Create a new table
+CREATE TABLE location(
+
+ID VARCHAR(30) PRIMARY KEY
+Severity INT
+Start_Time DATE
+Year INT
+Start_Lat FLOAT
+Start_Lng FLOAT
+Distance(mi) FLOAT
+Street VARCHAR(30) NOT NULL
+City VARCHAR(30) NOT NULL
+State VARCHAR(30) NOT NULL
+Zipcode VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE weather(
+ID VARCHAR(30) PRIMARY KEY
+Temperature(F) FLOAT
+Wind_Chill(F) FLOAT
+Humidity(%) FLOAT
+Pressure(in) FLOAT
+Visibility(mi) FLOAT
+Wind_Direction FLOAT
+Wind_Speed(mph) FLOAT
+Precipitation(in) FLOAT
+Weather_Condition  VARCHAR(30)
+Sunrise_Sunset VARCHAR(30)
+);
+
+CREATE TABLE geography(
+ID VARCHAR(30) PRIMARY KEY
+Amenity Boolean
+Bump Boolean
+Crossing Boolean
+Give_Way Boolean
+Junction Boolean
+No_Exit Boolean
+Railway Boolean
+Roundabout Boolean
+Station Boolean
+Stop Boolean Boolean
+Traffic_Calming Boolean
+Traffic_Signal Boolean
+Turning_Loop Boolean);
