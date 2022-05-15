@@ -1,0 +1,46 @@
+Dataset ETL & Exporting to Database
+- used the US_Accidents_Dec21_updated.csv as our dataset
+- using Jupyter Notebook cleaned the data by dropping the Null rows.
+- Created three files - 
+1. Location- Extracted the following Attributes :
+ ID - 		Accident identity- unique identifier of the accident record.
+ Severity- 	Severity of the accident- (1-4)
+ Start_Time- 	Time of the accident
+ Year - 	Year of the accident
+ Start_Lat & Start_Lng- Location ( Longitute & latitude)
+ Distance(mi)- 	Distance ( The length of the road extent affected by the accident)
+ State, City, Zipcode.
+
+2.  Weather -  Extracted the following Attributes:
+ ID			Unique identifier of the accident record.
+Temperature(F)		The temperature (in Fahrenheit).
+Wind_Chill(F)		The wind chill (in Fahrenheit).
+Humidity(%)		The humidity (in percentage).
+Pressure(in)		The air pressure (in inches).
+Visibility(mi)		Visibility (in miles).
+Wind_Direction		Wind direction.
+Wind_Speed(mph)		Wind speed (in miles per hour).
+Precipitation(in)	Precipitation amount in inches, if there is any.
+Weather_Condition	The weather condition (rain, snow, thunderstorm, fog, etc.)
+Sunrise_Sunset		The period of day (i.e. day or night) based on sunrise/sunset.
+
+3. Geography - Extracted the following Attributes:
+
+Amenity		Amenity in a nearby location.
+Bump		Speed bump or hump in a nearby location.
+Crossing	Crossing in a nearby location.
+Give_Way	Give_way in a nearby location.
+Junction	Junction in a nearby location.
+No_Exit		No_exit in a nearby location.
+Railway		Railway crossing in a nearby location.
+Roundabout	Roundabout in a nearby location.
+Station		Station in a nearby location.
+Stop		Stopsign in a nearby location.
+Traffic_Calming	Traffic_calming in a nearby location.
+Traffic_Signal
+Turning_Loop
+Exported the three files to PostgresSQL as Tables.
+
+
+
+
