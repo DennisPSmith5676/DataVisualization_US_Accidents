@@ -15,8 +15,6 @@ paths:
   /accidents:
     get:
       operationId: "accidents.read"
-      tags:
-        - "Accidents"
       summary: "Read the list of accidents with a provided year and severity"
       parameters:
         - in: query
@@ -29,12 +27,7 @@ paths:
           description: The severity to select
       responses:
         200:
-          description: "Successful read accidents list operation"
+          description: "A JSON file"
           schema:
-            type: "array"
-            items: 
-              properties:
-                year:
-                  type: "integer"
-                severity:
-                  type: "integer"
+            type: string
+  

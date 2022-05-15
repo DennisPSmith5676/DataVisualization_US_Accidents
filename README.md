@@ -133,7 +133,7 @@ One of the trends expected to impact car accidents across the world is the devel
 
 ![top 10](/IMAGES/State.png)
 
- 
+
 
 # Data Cleaning
 	To clean and reformat our data we used PostgresSQL and Jypter Notebook.
