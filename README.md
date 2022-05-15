@@ -113,7 +113,7 @@ One of the trends expected to impact car accidents across the world is the devel
 
 * Which are the top 10 States with most no. of road accident cases in US ?
 
-![top 10](/IMAGES/State10.png)
+![top 10](/IMAGES/Top_10_States.png)
 
 * Which top 10 Cities in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
 
