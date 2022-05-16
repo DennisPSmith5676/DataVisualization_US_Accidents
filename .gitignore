@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+# add config.py
+config.py
+
+# ignore DataFile
+DataFile/
+
+=======
+# Adding config.py file.
+config.py
+
+>>>>>>> a66989c8ecb3acbeb738a63ab2a0fd7ad5f2c15b
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -8,7 +20,6 @@ __pycache__/
 
 # ingnore DataFile folder
 DataFile/
-
 
 # Distribution / packaging
 .Python
@@ -131,3 +142,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Passwords
+config.py
