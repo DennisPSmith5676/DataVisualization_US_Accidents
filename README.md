@@ -138,7 +138,7 @@ One of the trends expected to impact car accidents across the world is the devel
 	To clean and reformat our data we used PostgresSQL and Jypter Notebook.
 To get our data in a format that was needed, we had to use merge PostgresSQL and Jypter Notebook. 
 
-Using PostgresSQL we created clean_accident_data_df. !st we had to create the schema file. Then we loaded our database. This is what we used to do all of our analysis. 
+Using PostgresSQL we created clean_accident_data_df. 1st we had to create the schema file. Then we loaded our database. This is what we used to do all of our analysis. 
 In addition to Database creation, we had to identify if we had any NaN in our data. This was most prevelant in street number column.
 So we dropped the Street number as well as the following columns:
 
