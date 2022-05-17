@@ -382,21 +382,7 @@ Here is our ERD diagram of the tables used in this project
 
 # Data Visualization
 
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
+![top 10](/IMAGES/)
 
 # Reports and Instructions
   
