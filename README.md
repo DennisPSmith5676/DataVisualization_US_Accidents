@@ -111,9 +111,10 @@ One of the trends expected to impact car accidents across the world is the devel
 
 ![last 5 Years](/IMAGES/Accident-By_Year.png)
 
+
 * Which are the top 10 States with most no. of road accident cases in US ?
 
-![top 10](/IMAGES/Top_10_States.png)
+![top 10](/IMAGES/State10.png)
 
 * Which top 10 Cities in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
 
@@ -191,7 +192,7 @@ Accident_city_atstopsign_night
 
 Count_Severity_Year
 
-![top 10](/IMAGES/Count_Severity_Year.png)
+![top 10](/IMAGES/count_year.PNG)
 
 count_hour
 
@@ -382,21 +383,7 @@ Here is our ERD diagram of the tables used in this project
 
 # Data Visualization
 
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
+![top 10](/IMAGES/)
 
 # Reports and Instructions
   
