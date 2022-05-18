@@ -106,16 +106,24 @@ One of the trends expected to impact car accidents across the world is the devel
 # Questions
 
 ✓ Questions they hope to answer with the data: US-Accidents can be used for numerous applications such as real-time car accident prediction, studying car accidents hotspot locations, casualty analysis and extracting cause and effect rules to predict car accidents, and studying the impact of precipitation or other environmental stimuli on accident occurrence. The most recent release of the dataset can also be useful to study the impact of COVID-19 on traffic behavior and accidents. Our team is planning to find the answers to questions such as:
-* Which City in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
- 
-![last 5 Years](/IMAGES/count_year.png)
+
+* Total number of Accidents by Year
 
 ![last 5 Years](/IMAGES/Accident-By_Year.png)
 
 
+* Which are the top 10 States with most no. of road accident cases in US ?
+
+![top 10](/IMAGES/State10.png)
+
+* Which top 10 Cities in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
+
+![images](/IMAGES/City10.png)
+ 
+
 * Which are the top 10 accident prone streets in US ?
   
-![top 10](/IMAGES/top10_accident_city.png)
+![top 10](/IMAGES/Street10.png)
 
 * Per Day averagely how many road accidents took place in US ?
 
@@ -123,23 +131,15 @@ One of the trends expected to impact car accidents across the world is the devel
 
 * In which hours of the day most accidents happened in US ?
  
-![top 10](/IMAGES/count_hour.png)
+![top 10](/IMAGES/Hour.png)
 
-![top 10](/IMAGES/Heatmap.png)
 
-* Which are the top 10 States with most no. of road accident cases in US ?
-
-![top 10](/IMAGES/Top_10_States.png)
-
-![top 10](/IMAGES/State.png)
-
- 
 
 # Data Cleaning
 	To clean and reformat our data we used PostgresSQL and Jypter Notebook.
 To get our data in a format that was needed, we had to use merge PostgresSQL and Jypter Notebook. 
 
-Using PostgresSQL we created clean_accident_data_df. !st we had to create the schema file. Then we loaded our database. This is what we used to do all of our analysis. 
+Using PostgresSQL we created clean_accident_data_df. 1st we had to create the schema file. Then we loaded our database. This is what we used to do all of our analysis. 
 In addition to Database creation, we had to identify if we had any NaN in our data. This was most prevelant in street number column.
 So we dropped the Street number as well as the following columns:
 
@@ -192,7 +192,7 @@ Accident_city_atstopsign_night
 
 Count_Severity_Year
 
-![top 10](/IMAGES/Count_Severity_Year.png)
+![top 10](/IMAGES/count_year.PNG)
 
 count_hour
 
@@ -383,21 +383,7 @@ Here is our ERD diagram of the tables used in this project
 
 # Data Visualization
 
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
-
-![top 10](/IMAGES/image.png)
+![top 10](/IMAGES/)
 
 # Reports and Instructions
   
