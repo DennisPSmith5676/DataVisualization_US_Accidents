@@ -1,1 +1,2 @@
+# aws password
 awspassword = "usaccident"

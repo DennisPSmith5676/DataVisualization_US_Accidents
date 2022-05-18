@@ -19,15 +19,13 @@ accident_df = pd.read_sql("SELECT * FROM clean_accident_data;", engine)
 # Called when a GET request is made to the URL defined in swagger.yml
 def read(year, severity):
     drop_list = [
-        'Start_Time', 'End_Time', 'Start_Lat',
-        'Start_Lng', 'Distance(mi)', 'Street', 'Side', 'County',
-        'Zipcode', 'Timezone', 'Temperature(F)', 'Wind_Chill(F)',
-        'Humidity(%)', 'Pressure(in)', 'Visibility(mi)', 'Wind_Direction',
-        'Wind_Speed(mph)', 'Precipitation(in)', 'Amenity',
-        'Bump', 'Crossing', 'Give_Way', 'Junction', 'No_Exit', 'Railway',
-        'Roundabout', 'Station', 'Stop', 'Traffic_Calming', 'Traffic_Signal',
-        'Turning_Loop', 'Sunrise_Sunset', 'Month', 'Day', 'Hour',
-        'Weekday', 'time_duration'
+    'Start_Time', 'End_Time', 'Distance(mi)', 'Street', 'Side', 'City', 'County',
+    'State', 'Zipcode', 'Timezone','Visibility(mi)', 'Wind_Direction',
+    'Wind_Speed(mph)', 'Precipitation(in)', 'Weather_Condition', 'Amenity',
+    'Bump', 'Crossing', 'Give_Way', 'Junction', 'No_Exit', 'Railway',
+    'Roundabout', 'Station', 'Stop', 'Traffic_Calming', 'Traffic_Signal',
+    'Turning_Loop', 'Sunrise_Sunset', 'Month', 'Day', 'Hour',
+    'Weekday', 'time_duration'
     ]
 
     # Drops the drop_list columns, removes the rows which do not match the year and severity
