@@ -1,0 +1,33 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Swagger REST Article
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /accidents:
+    get:
+      operationId: "accidents.read"
+      summary: "Read the list of accidents with a provided year and severity"
+      parameters:
+        - in: query
+          name: year
+          type: integer
+          description: The year to select
+        - in: query
+          name: severity
+          type: integer
+          description: The severity to select
+      responses:
+        200:
+          description: "A JSON file"
+          schema:
+            type: string
+  

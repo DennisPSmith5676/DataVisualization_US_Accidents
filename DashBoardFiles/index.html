@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataVisualization_US_Accidents</title>
+    <script type="text/javascript" language="JavaScript" src="script.js" defer></script>
+    <script src="https://d3js.org/d3.v3.js"></script>
+</head>
+
+<body>
+    <div id = "filters">
+        <label for = "years">Select year:</label>
+        <select name = "years" id = "years">
+            <option value = "2016">2016</option>
+            <option value = "2017">2017</option>
+            <option value = "2018">2018</option>
+            <option value = "2019">2019</option>
+            <option value = "2020">2020</option>
+            <option value = "2021">2021</option>
+        </select>
+    
+        <label for = "severity">Select severity:</label>
+        <select name = "severity" id = "severity">
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+        </select>
+    </div>
+
+    <div id="results">
+        Count:
+    </div>
+    
+    <!-- Use HTML to Open a Link in a New Tab -->
+    <p>Check out <a href="https://public.tableau.com/views/DataVisualtization/County?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link/" target="_blank" rel="noopener noreferrer">DataVisualtization in Tableau</a>.</p>
+</body>
+</html>
