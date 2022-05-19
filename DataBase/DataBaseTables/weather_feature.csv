@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:273338f1a668df59a03562c3b8bca8607d78be0e7bed43e671ce3e8ffc074258
-size 371
+count,city,state,temperature,wind_chill,visibility,sunrise_sunset
+110,Waukesha,WI,30,17,10,Night
+79,Raleigh,NC,32,32,10,Night
+60,Raleigh,NC,30,30,10,Night
+59,Charlotte,NC,30,30,10,Night
+59,Charlotte,NC,32,32,10,Night
+54,Raleigh,NC,28,28,10,Night
+44,Saint Paul,MN,32,32,10,Night
+40,Raleigh,NC,29,29,10,Night
+38,Minneapolis,MN,-12,-29,10,Night
+37,Raleigh,NC,27,27,10,Night
