@@ -3,6 +3,7 @@
 #
 # Adding config.py file.
 config.py
+config.js
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -12,7 +13,7 @@ __pycache__/
 # C extensions
 *.so
 
-# ingnore DataFile folder
+# ignore DataFile folder
 DataFile/
 
 # Distribution / packaging
