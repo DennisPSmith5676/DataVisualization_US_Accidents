@@ -373,6 +373,18 @@ We used RandomUndersampler method of the imblearn library as we have adequate po
 
 We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
 
+### Segment 3:
+* Team decided to use three algorithms(Navia random Oversampling RFC and Easy Adbooster Classifier) with highest accuracy score for the testing of whole dataset.
+* Not only the algorithm,we drop the least five features 'No_Exit','Traffic_Calming','Roundabout','Bump','Turning_Loop'from RFC feature impotence when going for whole dataset.
+* When considering whole dataset the  dropped the column Street as it is too much noisy.
+
+![AA](/IMAGES/Accurasy3algorthms.PNG)
+
+* For whole dataset Random forest Classifier gives 83% accuracy score and 87% f1 score. 
+* Accordingly it become the best algorithm to predict accident severity in our dataset.
+
+![CM](/IMAGES/RFCconfusionMetrix.PNG)
+
 
 # ERD 
 
@@ -383,7 +395,21 @@ Here is our ERD diagram of the tables used in this project
 
 # Data Visualization
 
-![top 10](/IMAGES/)
+* After selecting data source, doing elementory data analysis, we cleaned the data and created a database with ERD diagrams in postgres and uploaded the database to AWS. 
+* After that we asked the questions about how to incorporate our knowledge of machine learning to solve the questions we have during EDA.The basic idea we had was, why not train some models on the dataset and use those models to get the feature importance to figure out which factors contribute the most to an accident. We realised that "Severity" of the accident is the most important feature og our data and so many factors affect it. So we run the ML models on mock dataset and then cleaned real dataset. 
+* After finding the feature importances, we came to the data visualisation. We realised that we could do static visualisation in Tableau and dynamic visualisation using javascript, flask, python, html,css,leaflet,and swagger. 
+* With extensive documentation available online, module content from the bootcamp, and brainstorming about visualisation, we decided to focus on accident count to be displayed according to year and severuty. Then decided to incorporate different factors to display on the maps for specific co-ordinates. 
+
+* Our dashboard looks like this :
+
+![DB](/IMAGES/Dashboard.png)
+
+* Here we take user input in the form of year and severity and diaplay accident count and since it's a big data, part of that count on the map.    * When we click on each location, humidy, pressure,temperature,wind chill will be displayed for that accident.
+* On the dashboard, we provided link to the Tableau and we can see the story of US Accident between 2016-2021.
+
+![TP](Tableau.png)
+
+* For further enhancement, we would like to implement more features on the dashboard and want to figure out how to reduce the time and memeory to fetch the data.
 
 # Reports and Instructions
   
