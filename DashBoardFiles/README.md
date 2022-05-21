@@ -347,14 +347,14 @@ AdaBoost is a boosting ensemble model and works especially well with the decisio
 
 Ensemble AdaBoost classifier also gave 61% accuracy score for mock accidents dataset.
 
-Comparing All Accuracy scores:
+Comparing All Accurasy scores:
 
-![Comparing All Accuracy scores](./IMAGES/AllAccuracy.png)
+![Comparing All Accurasy scores](./IMAGES/AllAccuracy.png)
 
- After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithms and Ensemble AdaBoost classifier we decided to proceed with Easy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident datset.
+ After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithems and Ensemble AdaBoost classifier we desided to proceed with Easy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident datset.
 
 
-![DifferentMLAlgorithm Types](./IMAGES/difftypeofML.png)
+![DifferentMLAlgorithem Types](./IMAGES/difftypeofML.png)
 
 Model building and feature engineering
 We now have some necessary insights into the dataset so, we can move on to modelling and experimentation along with some feature engineering since this is a machine learning task.
@@ -368,22 +368,10 @@ We didn’t do one-hot encoding of any features due to large number of possible 
 Over and under-sampling of data points
 Through the EDA above, we can clearly notice that the class distribution in this dataset is very imbalanced. This is due to the fact that the lowest and highest severity accidents don’t occur as often as compared to other two severities so we don’t have adequate data for those classes. This means if we used the data in its existing condition then the model may never give predictions which have those probabilities. To counter this we will try to under sample the over represented classes and over sample the under represented classes. This wouldn’t completely get rid of the problem but it’s better than nothing.
 
-We used Random Undersampler method of the imblearn library as we have adequate points for those classes and it wouldn’t hurt to just randomly get rid of some of those points and use SMOTE method to over sample as it is the most robust of all the over sampling methods currently available to us. This process can be done in only a few lines of code as given below:
+We used RandomUndersampler method of the imblearn library as we have adequate points for those classes and it wouldn’t hurt to just randomly get rid of some of those points and use SMOTE method to over sample as it is the most robust of all the over sampling methods currently available to us. This process can be done in only a few lines of code as given below:
 
 
 We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
-
-### Segment 3:
-* Team decided to use three algorithms (Navia random Oversampling RFC and Easy Adbooster Classifier) with highest accuracy score for the testing of whole dataset.
-* Not only the algorithm, we drop the least five features 'No_Exit', 'Traffic_Calming', 'Roundabout','Bump', 'Turning_Loop' from RFC feature impotence when going for whole dataset.
-* When considering whole dataset the  dropped the column Street as it is too much noisy.
-
-![AA](./IMAGES/Accurasy3algorthms.PNG)
-
-* For whole dataset Random forest Classifier gives 83% accuracy score and 87% f1 score. 
-* Accordingly it become the best algorithm to predict accident severity in our dataset.
-
-![CM](./IMAGES/RFCconfusionMetrix.PNG)
 
 
 # ERD 
@@ -395,21 +383,7 @@ Here is our ERD diagram of the tables used in this project
 
 # Data Visualization
 
-* After selecting data source, doing elementary data analysis, we cleaned the data and created a database with ERD diagrams in postgres and uploaded the database to AWS.
-* After that we asked the questions about how to incorporate our knowledge of machine learning to solve the questions we have during EDA.The basic idea we had was, why not train some models on the dataset and use those models to get the feature importance to figure out which factors contribute the most to an accident. We realized that "Severity" of the accident is the most important feature og our data and so many factors affect it. So we run the ML models on mock dataset and then cleaned real dataset.
-* After finding the feature importance's, we came to the data visualization. We realized that we could do static visualization in Tableau and dynamic visualization using javascript, flask, python, html,css,leaflet,and swagger.
-* With extensive documentation available online, module content from the bootcamp, and brainstorming about visualization, we decided to focus on accident count to be displayed according to year and severity. Then decided to incorporate different factors to display on the maps for specific co-ordinates.
-
-* Our dashboard looks like this :
-
-![DB](./IMAGES/image%20(5).png)
-
-* Here we take user input in the form of year and severity and display accident count and since it's a big data, part of that count on the map.    * When we click on each location, humidly, pressure,temperature,wind chill will be displayed for that accident.
-* On the dashboard, we provided link to the Tableau and we can see the story of US Accident between 2016-2021.
-
-![TP](./IMAGES/image%20(4).png)
-
-* For further enhancement, we would like to implement more features on the dashboard and want to figure out how to reduce the time and memeory to fetch the data.
+![top 10](/IMAGES/)
 
 # Reports and Instructions
   

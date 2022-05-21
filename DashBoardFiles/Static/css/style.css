@@ -27,3 +27,8 @@ h1{
   padding: 0;
   color:blueviolet;
 }
+
+.popupTest {
+  width: 100px;
+  height: 100px;
+}
