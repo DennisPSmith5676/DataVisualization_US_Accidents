@@ -3,6 +3,7 @@ select count(severity),severity, year
 from acci_location
 group by (year,severity);
 
+
 -- Average  accidents per year 
 select count(severity), year 
 from acci_location
@@ -12,21 +13,23 @@ group by (year);
 select count(severity), hour
 from acci_location 
 group by (hour)
-order by hour;
+order by (count(severity),hour) desc;
 
 
 -- Number of accidents by STATE 
 select count(severity), state
 from acci_location 
 group by (state)
-order by state; 
+order by count(severity) DESC
+LIMIT 10; 
 
 
 -- Number of accidents by CITY in desending order
 select count(id), city , state
 from acci_location 
 group by (city,state)
-order by (count(id),state) desc ;
+order by (count(id),state) desc
+LIMIT 10;
 
 
 

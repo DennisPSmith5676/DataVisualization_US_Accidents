@@ -25,5 +25,10 @@ h1{
   font-weight: bold;
   margin: 0;
   padding: 0;
-  color:blueviolet;
+  color:rgb(194, 100, 147);
+}
+
+.popupTest {
+  width: 100px;
+  height: 100px;
 }
