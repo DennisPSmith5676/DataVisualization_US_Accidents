@@ -380,7 +380,7 @@ Note: Please run one algorithm at a time as this is a very large Dataset.
 
 Here is our ERD diagram of the tables used in this project
 
-![top 10](/IMAGES/ERD-US_Accident.png)
+![top 10](./IMAGES/)
 
 
 # Data Visualization
@@ -442,3 +442,4 @@ Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Raji
 
 Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM, 2019.
 in Geographic Information Systems, ACM, 2019.
+
