@@ -189,7 +189,7 @@ Accident_city_atstopsign_night
 
 Count_Severity_Year
 
-![top 10](./IMAGES/count_year.PNG)
+![top 10](./IMAGES/count_year.png)
 
 count_hour
 
