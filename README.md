@@ -404,7 +404,7 @@ Here is our ERD diagram of the tables used in this project
 # Reports and Instructions
   
 ## Google Slides - This is the link to our presentation.
-  [Google Slides file link](https://docs.google.com/presentation/d/1BbW_9SDosgocGcgVJXc93XC9Y5BanCLbL863OFvCy94/edit?usp=sharing)
+  [Google Slides file link](https://docs.google.com/presentation/d/1k70pxCqJ17CRlEg-YkXJJzSyp433tCJifYSuqxTYrr0/edit?usp=sharing)
 
 ## Tableau Slides - This is the link to our images and visulizations from Tableau.
 [Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/US_Accident?publish=yes)
