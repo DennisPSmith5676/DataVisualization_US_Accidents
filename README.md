@@ -2,7 +2,7 @@
 
 ![Accident](/IMAGES/car-crash-accident-on-road-600w-577056850.webp)
 
-https://dennispsmith5676.github.io/DataVisualization_US_Accidents/
+
 
 This is the final Team 8 project for the Rutgers Data Visualization Bootcamp
 
