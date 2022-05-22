@@ -390,7 +390,7 @@ Here is our ERD diagram of the tables used in this project
 
 ![top 10](./IMAGES/Team%208%20-%20CSV.png)
 
-![top 10](./IMAGES/Team%208%20-%20BRFC.png)
+![top 10](./IMAGES/Team%208%20-%20DataClean.png)
 
 * After that we asked the questions about how to incorporate our knowledge of machine learning to solve the questions we have during EDA.The basic idea we had was, why not train some models on the dataset and use those models to get the feature importance to figure out which factors contribute the most to an accident. We realized that "Severity" of the accident is the most important feature og our data and so many factors affect it. So we run the ML models on mock dataset and then cleaned real dataset.
 * After finding the feature importance's, we came to the data visualization. We realized that we could do static visualization in Tableau and dynamic visualization using javascript, flask, python, html,css,leaflet,and swagger.
