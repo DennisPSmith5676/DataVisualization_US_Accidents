@@ -51,7 +51,7 @@ Key facts
 * Every year, millions of people die in road traffic accidents. For instance, the World Health Organization (WHO) reports that [1.35 million people](https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries) die in car accidents per annum globally. 
 * In the United States, about [38,000 people die every year](https://www.iii.org/fact-statistic/facts-statistics-highway-safety) in automobile crashes. Many of these accidents are avoidable, and are often a result of driver behavior like drunk-driving, speeding, using the cellphone while driving, and driving in precarious weather conditions.  
 
-Considering that numbers don’t lie, we hope that when we know what causes the accidents we will all play our part in ensuring that we are part of the solution that will make our roads safe places for all users. 
+Considering that numbers don’t lie, we hope that when we know what causes the accidents we will all play our part in ensuring that we are part of the solution that will make our roads safe places for all users.
 Road traffic injuries cause considerable economic losses to individuals, their families, and to nations as a whole. These losses arise from the cost of treatment as well as lost productivity for those killed or disabled by their injuries, and for family members who need to take time off work or school to care for the injured. Road traffic crashes cost most countries 3% of their gross domestic product.
 
 A statistical projection of traffic fatalities for the first 9 months of 2021 shows that an estimated 31,720 people died in motor vehicle traffic crashes nationwide. This represents an increase of about 12.0 percent as compared to 28,325 fatalities that were projected in the first 9 months of 2020, as shown in Table 1. This also represents the highest number of fatalities during the first 9 months of the year since 2006 and the highest percentage increase during the first 9 months in the recorded history of data in the Fatality Analysis Reporting System (FARS)
@@ -65,7 +65,7 @@ To give you a general idea of the rate of accidents, we start by looking at some
 * On average, one pedestrian dies from a car crash [every 88 minutes](https://www.nhtsa.gov/road-safety/pedestrian-safety). 
 
 ## Total Number of Car Accidents per Year in the U.S. 
-The roads in the United States are some of the busiest in the world. The country has an estimated 280 million vehicles and more than 227.5 million drivers. 
+The roads in the United States are some of the busiest in the world. The country has an estimated 280 million vehicles and more than 227.5 million drivers.
 On average, there are over [6 million passenger car accident](https://www.statista.com/statistics/192097/number-of-vehicles-involved-in-traffic-crashes-in-the-us/) in the U.S. every year. Road crashes are the leading cause of death in the country, resulting in more than [38,000 people](https://www.asirt.org/safe-travel/road-safety-facts/) losing their lives each year.  
 
 ## U.S. States Where Most Car Accidents Happen
@@ -74,19 +74,19 @@ Texas had the highest number of fatal accidents in 2018. Estimates indicated tha
 You can check the detailed car accident statistics by state [here](https://www.iihs.org/topics/fatality-statistics/detail/state-by-state). 
 
 ## All Road Users are Affected 
-Road accidents do not only harm drivers, but also their passengers and pedestrians. With improving technology and awareness campaigns, you would be surprised that cyclists and pedestrians are still dying at high rates.   
+Road accidents do not only harm drivers, but also their passengers and pedestrians. With improving technology and awareness campaigns, you would be surprised that cyclists and pedestrians are still dying at high rates.
 
 According to the [National Highway Traffic Safety Association (NHTSA)](https://www.nhtsa.gov/road-safety/pedestrian-safety#:~:text=There%20was%20a%20more%20than,the%20most%20deaths%20since%201990.), 2018 saw the highest number of pedestrian and cyclist deaths since 1990. An estimated 96% of the time, in collisions between large trucks and passenger vehicles, the passenger vehicle occupants were killed.
 
-The statistics above show that it is not just the driver who is in danger when an accident occurs. Everyone who uses the road, whether inside or outside the car, is at risk. It also illustrates the importance of targeting all road users when designing measures to mitigate car accidents. 
+The statistics above show that it is not just the driver who is in danger when an accident occurs. Everyone who uses the road, whether inside or outside the car, is at risk. It also illustrates the importance of targeting all road users when designing measures to mitigate car accidents.
 
 ## Accidents by Time
-Perhaps due to changing visibility, fatigue, and other such factors, certain times of the day are peak periods when crashes are more likely to happen. 
+Perhaps due to changing visibility, fatigue, and other such factors, certain times of the day are peak periods when crashes are more likely to happen.
 
-For instance, in 2018, Saturdays were the week’s peak day for fatal crashes, while Fridays were the peak day of the week for non-fatal crashes. The period between [4pm and 7:59pm](https://injuryfacts.nsc.org/motor-vehicle/overview/crashes-by-time-of-day-and-day-of-week/) is the peak time of the day for both fatal and non-fatal car crashes. 
+For instance, in 2018, Saturdays were the week’s peak day for fatal crashes, while Fridays were the peak day of the week for non-fatal crashes. The period between [4pm and 7:59pm](https://injuryfacts.nsc.org/motor-vehicle/overview/crashes-by-time-of-day-and-day-of-week/) is the peak time of the day for both fatal and non-fatal car crashes.
 
 ## Weather-Related Car Accidents
-The weather has a significant effect on the chances of car accidents happening. For example, about [17% of car crashes occur during the winter](https://driving-tests.org/driving-statistics/). Weather-related car accidents kill more people in a year than large-scale weather disasters. 
+The weather has a significant effect on the chances of car accidents happening. For example, about [17% of car crashes occur during the winter](https://driving-tests.org/driving-statistics/). Weather-related car accidents kill more people in a year than large-scale weather disasters.
 
 The Federal Highway Administration (FHWA) reports that about [22% of the 6 million crashes](https://ops.fhwa.dot.gov/weather/q1_roadimpact.htm) in the U.S. every year are weather-related. 
 
@@ -109,38 +109,36 @@ One of the trends expected to impact car accidents across the world is the devel
 
 * Total number of Accidents by Year
 
-![last 5 Years](/IMAGES/Accident-By_Year.png)
+![last 5 Years](./IMAGES/Accident-By_Year.png)
 
 
 * Which are the top 10 States with most no. of road accident cases in US ?
 
-![top 10](/IMAGES/State10.png)
+![top 10](./IMAGES/State10.png)
 
 * Which top 10 Cities in US has reported most no. of Accident Cases in last 5 years (2016-2021) ?
 
-![images](/IMAGES/City10.png)
- 
+![images](./IMAGES/City10.png)
+
 
 * Which are the top 10 accident prone streets in US ?
   
-![top 10](/IMAGES/Street10.png)
+![top 10](./IMAGES/Street10.png)
 
 * Per Day averagely how many road accidents took place in US ?
 
-![DayAvg](/IMAGES/Avg_per_day.png)
+![DayAvg](./IMAGES/Avg_per_day.png)
 
 * In which hours of the day most accidents happened in US ?
  
-![top 10](/IMAGES/Hour.png)
-
-
+![top 10](./IMAGES/Hour.png)
 
 # Data Cleaning
-	To clean and reformat our data we used PostgresSQL and Jypter Notebook.
-To get our data in a format that was needed, we had to use merge PostgresSQL and Jypter Notebook. 
+To clean and reformat our data we used PostgresSQL and Jupyter Notebook.
+To get our data in a format that was needed, we had to use merge PostgresSQL and Jupyter Notebook.
 
-Using PostgresSQL we created clean_accident_data_df. 1st we had to create the schema file. Then we loaded our database. This is what we used to do all of our analysis. 
-In addition to Database creation, we had to identify if we had any NaN in our data. This was most prevelant in street number column.
+Using PostgresSQL we created clean_accident_data_df. 1st we had to create the schema file. Then we loaded our database. This is what we used to do all of our analysis.
+In addition to Database creation, we had to identify if we had any NaN in our data. This was most prevalent in street number column.
 So we dropped the Street number as well as the following columns:
 
 Astronomical_Twilight - Same data as Sunrise_Sunset
@@ -153,8 +151,7 @@ Description - no useful information
 
 Nautical_Twilight - Same Data as Sunrise_Sunset
 
-
-WE also added the following columns to our database
+We also added the following columns to our database:
 
 Year
 
@@ -184,31 +181,31 @@ In out analysis we asked the following questions in addition to the questions fr
 
 Accident_city_atstopsign_daytime
 
-![top 10](/IMAGES/Accident_city_atstopsign_daytime.png)
+![top 10](./IMAGES/Accident_city_atstopsign_daytime.png)
 
 Accident_city_atstopsign_night
 
-![top 10](/IMAGES/Accident_city_atstopsign_night.png)
+![top 10](./IMAGES/Accident_city_atstopsign_night.png)
 
 Count_Severity_Year
 
-![top 10](/IMAGES/count_year.PNG)
+![top 10](./IMAGES/count_year.PNG)
 
 count_hour
 
-![top 10](/IMAGES/count_hour.png)
+![top 10](./IMAGES/count_hour.png)
 
 count_year
 
-![top 10](/IMAGES/Accident-By_Year.png)
+![top 10](./IMAGES/Accident-By_Year.png)
 
 top10_accident_city
 
-![top 10](/IMAGES/top10_accident_city.png)
+![top 10](./IMAGES/top10_accident_city.png)
 
 top10_accident_state
 
-![top 10](/IMAGES/top10_accident_state.png)
+![top 10](./IMAGES/top10_accident_state.png)
 
 Here is the code to th above visualizations:
 
@@ -241,7 +238,7 @@ code for this section:https://github.com/DennisPSmith5676/DataVisualization_US_A
 This dataset contains 49 columns which means we are dealing with 49 features in total which is little bit too much. We will try to remove some of them and maybe merge some columns in a meaningful way.
  - Droped the non-beneficial columns such as 'ID','Start_Time','End_Time','Zipcode' for machine learning process.
     - ID : Since ID doesn't carry any information for the severity.
-    - Start_Time,End_Time : Because it has alreay been decomposed to calcalculate other time features such as day, month, weekday and Year.
+    - Start_Time,End_Time : Because it has already been decomposed to calculate other time features such as day, month, weekday and Year.
     - Zipcode : Because we just focus on the City,County and State where the accident happened.
  - Dropped the Null values
  - After the pre-processing, the dataset now contains 39 columns.
@@ -249,22 +246,22 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
  
 #### ✓ Description of preliminary feature engineering 
 
-After deleting the non-benifitial columns,this dataset contains 7 catogerical columns. i.e (street,side,city,county,state,sunrise_sunset & month)
+After deleting the non-beneficial columns,this dataset contains 7 categorical columns. i.e (street,side,city,county,state,sunrise_sunset & month)
 
 ##### Binning
 
 Binning method is used to smoothing data or to handle noisy data.
  - If we consider all catogerical columns, the Street column as a highst nunber of unique values, that is 17079. So used binning to catogerised the values of the Street column,
   
- - Choose value count of Street less than 20 then catogerize as "Other".the reason to chose less than 20 is less than 20 strrets doesn't contain any major highways.
+ - Choose value count of Street less than 20 then categorize as "Other".the reason to chose less than 20 is less than 20 streets doesn't contain any major highways.
         
 ##### Label Encoding vs  One-Hot Encoding
 
  ![convert catogericaltonumerical](./IMAGES/why%20toencode.png)
 
-Machines Learning Algorithems  understand numbers, not text. We need to convert each text category to numbers in order for the machine learning  to process them using mathematical equations. 
+Machines Learning Algorithms  understand numbers, not text. We need to convert each text category to numbers in order for the machine learning  to process them using mathematical equations.
 
-Ever wondered how we can do that? What are the different ways?This is where Label Encoding and One-Hot Encoding come into the picture. 
+Ever wondered how we can do that? What are the different ways?This is where Label Encoding and One-Hot Encoding come into the picture.
 
 Label Encoding is a popular encoding technique for handling categorical variables. In this technique, each label is assigned a unique integer based on alphabetical ordering.
 
@@ -272,58 +269,51 @@ One-Hot Encoding is another popular technique for treating categorical variables
 
 ![labelencodeVsonehot](./IMAGES/labelencodevsonehot.png)
 
-As this is very large data set with 39 columns and number of unique values in  each catogerical column is quite large as one-hot encoding can lead to high memory consumption.Considering that we choose Label Encoding using Scikit-Learn libreray to convert catogerical values to numerical.
+As this is very large data set with 39 columns and number of unique values in  each categorical column is quite large as one-hot encoding can lead to high memory consumption.Considering that we choose Label Encoding using Scikit-Learn library to convert categorical values to numerical.
 
 Though label encoding is straight but it has the disadvantage that the numeric values can be misinterpreted by algorithms as having some sort of hierarchy/order in them.
 
-  
-#### ✓ Description of how data was split into training and testing sets
- 
- - train_test_split is a function in Sklearn model selection for splitting data arrays into two subsets: 
-for training data and for testing data. With this function, we don't need to divide the dataset manually. 
+#### ✓ Description of how data was split into training and testing sets - train_test_split is a function in Sklearn model selection for splitting data arrays into two subsets: 
+For training data and for testing data. With this function, we don't need to divide the dataset manually.
 By default, Sklearn train_test_split will make random partitions for the two subsets.
 
-    ![describe](./IMAGES/splittoTrainTest.png)
-    
+  ![describe](./IMAGES/splittoTrainTest.png)
  ####  ✓ Explanation of model choice
- 
+
  The severity attribute as we can see from the  plot is highly unbalanced, the number of accident with the severity 1 is very small instead the number of accident with severity 2 is much higher.
- 
- ![unbalanced dta](./IMAGES/unbalanced.png)
- 
+
+![unbalanced dta](./IMAGES/unbalanced.png)
+
  The simplest way to fix imbalanced dataset is simply balancing them by oversampling instances of the minority class or undersampling instances of the majority class.
- 
+
  #####  Random Oversampling
  In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
- 
+
  Compared two oversampling algorithms Naive random over sampling algorithm and the SMOTE algorithm to determine which algorithm results in the best performance.
-    
  ###### Naive Random Oversampling Algorithm
   
  ![Naive random over sampling Histogram](./IMAGES/Naive%20random%20oversampling-histogrem.png)
-   
-Balnce Accuracy Score:
- 
+Balance Accuracy Score:
+
 ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive%20random%20oversampling-BAS.png)
 
-    
  ##### Undersampling
- 
+
  Undersampling is another technique to address class imbalance.Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased.
  
  Tested an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above.
  undersampled the data using the Cluster Centroids algorithm and it only gave accuracy score of 39.65%.
- 
+
  ##### Combination of Over and Under Sampling
- 
- Combination over- and under-sampling algorithm used to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm and gave 44.58% of accurasy score.
- 
- ##### Balanced Random Forest Classifier
- 
- Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model. 
-   Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally speaking, random forest models are very similar to their neural network counterparts. 
-   
-   Random forest models have been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data.
+
+ Combination over- and under-sampling algorithm used to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm and gave 44.58% of accuracy score.
+
+##### Balanced Random Forest Classifier
+
+ Random forest classifiers are a type of ensemble learning model that combines multiple smaller models into a more robust and accurate model.
+   Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally speaking, random forest models are very similar to their neural network counterparts.
+
+  Random forest models have been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data.
  
  Random forest classifier Accuracy score:
  
@@ -331,13 +321,13 @@ Balnce Accuracy Score:
  
  We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
  
- Great thing Random Forest clasifier is  it gives most importence features and it has emerged as a quite useful algorithm that can handle the feature selection issue even with a higher number of variables.
+ Great thing Random Forest classifier is  it gives most importance features and it has emerged as a quite useful algorithm that can handle the feature selection issue even with a higher number of variables.
  
  Feature impotency:
  
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20Feature%20impotacy.png)
  
- According to the graph the top 10 importent features for Accident sevirety are time_duration,Distance,Year,Start_Lng,Pressure,State,City,County,Huminidity and Winchill.
+ According to the graph the top 10 important features for Accident severity are time_duration,Distance,Year,Start_Lng,Pressure,State,City,County,Humidity and Windchill.
  
 And least impotence features are Roundabout,Turning_Loop,Bump,Traffic_Calming and 'No_Exit'.
 
@@ -351,7 +341,7 @@ Comparing All Accuracy scores:
 
 ![Comparing All Accuracy scores](./IMAGES/AllAccuracy.png)
 
- After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithms and Ensemble AdaBoost classifier we decided to proceed with Easy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident datset.
+ After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithms and Ensemble AdaBoost classifier we decided to proceed with Easy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident dataset.
 
 
 ![DifferentMLAlgorithm Types](./IMAGES/difftypeofML.png)
@@ -390,14 +380,22 @@ We can see that Random ForestRandom Forest response encoding and resampling give
 
 Here is our ERD diagram of the tables used in this project
 
-![top 10](/IMAGES/ERD-US_Accident.png)
+![top 10](./IMAGES/ERD-US_Accident.png)
 
 
 # Data Visualization
 
 * After selecting data source, doing elementary data analysis, we cleaned the data and created a database with ERD diagrams in postgres and uploaded the database to AWS.
+![top 10](./IMAGES/Team%208%20-%20Database.png)
+
+![top 10](./IMAGES/Team%208%20-%20CSV.png)
+
+![top 10](./IMAGES/Team%208%20-%20BRFC.png)
+
 * After that we asked the questions about how to incorporate our knowledge of machine learning to solve the questions we have during EDA.The basic idea we had was, why not train some models on the dataset and use those models to get the feature importance to figure out which factors contribute the most to an accident. We realized that "Severity" of the accident is the most important feature og our data and so many factors affect it. So we run the ML models on mock dataset and then cleaned real dataset.
 * After finding the feature importance's, we came to the data visualization. We realized that we could do static visualization in Tableau and dynamic visualization using javascript, flask, python, html,css,leaflet,and swagger.
+![top 10](./IMAGES/Team%208%20-%20Database.png)
+
 * With extensive documentation available online, module content from the bootcamp, and brainstorming about visualization, we decided to focus on accident count to be displayed according to year and severity. Then decided to incorporate different factors to display on the maps for specific co-ordinates.
 
 * Our dashboard looks like this :
@@ -409,7 +407,7 @@ Here is our ERD diagram of the tables used in this project
 
 ![TP](./IMAGES/image%20(4).png)
 
-* For further enhancement, we would like to implement more features on the dashboard and want to figure out how to reduce the time and memeory to fetch the data.
+* For further enhancement, we would like to implement more features on the dashboard and want to figure out how to reduce the time and memory to fetch the data.
 
 # Reports and Instructions
   
