@@ -260,7 +260,7 @@ Binning method is used to smoothing data or to handle noisy data.
         
 ##### Label Encoding vs  One-Hot Encoding
 
- ![convert catogericaltonumerical](./IMAGES/why%20toencode.png)
+
 
 Machines Learning Algorithems  understand numbers, not text. We need to convert each text category to numbers in order for the machine learning  to process them using mathematical equations. 
 
@@ -356,22 +356,7 @@ Comparing All Accuracy scores:
 
 ![DifferentMLAlgorithm Types](./IMAGES/difftypeofML.png)
 
-Model building and feature engineering
-We now have some necessary insights into the dataset so, we can move on to modelling and experimentation along with some feature engineering since this is a machine learning task.
 
-New features
-We can start with adding some new features based on time of day and month etc. as these things seem to be highly relevant in predicting the accident severity.
-We’ll then remove some outliers and negative features. Also, we should drop the features with a high number of null values since those can add noise to the models.
-
-We didn’t do one-hot encoding of any features due to large number of possible values for most features and computational limitations, but it can be tried if you have the resources to run it. We encoded some features with value counts.
-
-Over and under-sampling of data points
-Through the EDA above, we can clearly notice that the class distribution in this dataset is very imbalanced. This is due to the fact that the lowest and highest severity accidents don’t occur as often as compared to other two severities so we don’t have adequate data for those classes. This means if we used the data in its existing condition then the model may never give predictions which have those probabilities. To counter this we will try to under sample the over represented classes and over sample the under represented classes. This wouldn’t completely get rid of the problem but it’s better than nothing.
-
-We used Random Undersampler method of the imblearn library as we have adequate points for those classes and it wouldn’t hurt to just randomly get rid of some of those points and use SMOTE method to over sample as it is the most robust of all the over sampling methods currently available to us. This process can be done in only a few lines of code as given below:
-
-
-We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
 
 ### Segment 3:
 * Team decided to use three algorithms (Navia random Oversampling RFC and Easy Adbooster Classifier) with highest accuracy score for the testing of whole dataset.
@@ -385,6 +370,11 @@ We can see that Random ForestRandom Forest response encoding and resampling give
 
 ![CM](./IMAGES/RFCconfusionMetrix.PNG)
 
+This is the link to the segment 3 Jupyter nOtebook:
+
+https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/main/MachineLearning/ML_US_accident_dataset.ipynb
+
+Note: Please run one algorithm at a time as this is a very large Dataset.
 
 # ERD 
 
