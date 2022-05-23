@@ -179,6 +179,10 @@ In order to do our Data Visualization we created the Geography.db, Location.db a
 
 In out analysis we asked the following questions in addition to the questions from above.
 
+Accident_city_nighttime_> 32 Degrees
+
+![top 10](./IMAGES/image%20(6).png)
+
 Accident_city_atstopsign_daytime
 
 ![top 10](./IMAGES/Accident_city_atstopsign_daytime.png)
@@ -366,7 +370,25 @@ Here is our ERD diagram of the tables used in this project
 
 # Data Visualization
 
+    Good user experience is key to using any product, and the same holds true for APIs. The better the interface that's used to consume APIs, the higher the chance of achieving our project objectives.
+    
+    In our project , after doing EDA, database cleaning, and machine learning the dataset, we realized that to create a dashboard for the visualization, documenting the existing API using Swagger framework will be a good idea.After reading the documentation on the swaggerhub we decided a way to generate the Swagger interface from an already coded API.Then we added documentation to the generated Swagger specification using SwaggerHub.
+    Swagger and OpenAPI specification lets us design and develop REST APIs in a seamless manner. These specifications allow describing the structure of an entire REST API so that machines can read them.
+    
+    RESTful Web Services are basically REST Architecture based Web Services. In REST Architecture everything is a resource. RESTful web services are light weight, highly scalable and maintainable and are very commonly used to create APIs for web-based applications.
+    An API is essentially a contract. 
+    
+    A contract that both the API publisher and its consumers are agreed to adhere to in order to effectively communicate. And like most other contracts, to work in an expected manner, an API should document its various aspects. Aspects such as the endpoints it offers, operations that the endpoints support, and the response it returns for a request? Moreover, to accommodate ever-changing demands, an API evolves over time. In such a scenario, well documenting an API is not a choice but an integral part of its offerings to ensure a better customer experience.
+    
+    A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for "representational state transfer".
+https://en.wikipedia.org/wiki/Representational_state_transfer
+
+https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-openapi-6df7f26dcad
+
+![top 10](./IMAGES/Team%208%20-%20slide.png)
+
 * After selecting data source, doing elementary data analysis, we cleaned the data and created a database with ERD diagrams in postgres and uploaded the database to AWS.
+
 ![top 10](./IMAGES/Team%208%20-%20Database.png)
 
 ![top 10](./IMAGES/Team%208%20-%20CSV.png)
