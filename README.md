@@ -51,13 +51,13 @@ Key facts
 * Every year, millions of people die in road traffic accidents. For instance, the World Health Organization (WHO) reports that [1.35 million people](https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries) die in car accidents per annum globally. 
 * In the United States, about [38,000 people die every year](https://www.iii.org/fact-statistic/facts-statistics-highway-safety) in automobile crashes. Many of these accidents are avoidable, and are often a result of driver behavior like drunk-driving, speeding, using the cellphone while driving, and driving in precarious weather conditions.  
 
-Considering that numbers don’t lie, we hope that when we know what causes the accidents we will all play our part in ensuring that we are part of the solution that will make our roads safe places for all users. 
+Considering that numbers don’t lie, we hope that when we know what causes the accidents we will all play our part in ensuring that we are part of the solution that will make our roads safe places for all users.
 Road traffic injuries cause considerable economic losses to individuals, their families, and to nations as a whole. These losses arise from the cost of treatment as well as lost productivity for those killed or disabled by their injuries, and for family members who need to take time off work or school to care for the injured. Road traffic crashes cost most countries 3% of their gross domestic product.
 
 A statistical projection of traffic fatalities for the first 9 months of 2021 shows that an estimated 31,720 people died in motor vehicle traffic crashes nationwide. This represents an increase of about 12.0 percent as compared to 28,325 fatalities that were projected in the first 9 months of 2020, as shown in Table 1. This also represents the highest number of fatalities during the first 9 months of the year since 2006 and the highest percentage increase during the first 9 months in the recorded history of data in the Fatality Analysis Reporting System (FARS)
 
 ## Quick Car Accident Statistics
-To give you a general idea of the rate of accidents, we start by looking at some quick accident statistics: 
+To give you a general idea of the rate of accidents, we start by looking at some quick accident statistics:
 * An average human being will likely crash their car between [three and four times](https://www.forbes.com/sites/moneybuilder/2011/07/27/how-many-times-will-you-crash-your-car/?sh=34dd852d4e62) in a lifetime.
 * Most car accidents happen within [minutes of a driver’s home.](https://www.huffingtonpost.co.uk/2017/12/14/4-reasons-why-over-50-car-crashes-happen-closer-to-home_a_23307197/)
 * When you drive and speak on your cellphone, you increase your chances of getting into a car crash by [400%](https://visual.ly/community/Infographics/transportation/interesting-facts-car-crashes).
@@ -70,38 +70,38 @@ On average, there are over [6 million passenger car accident](https://www.statis
 
 ## U.S. States Where Most Car Accidents Happen
 Different states in the U.S. experience car accidents at different rates. This can be attributed to the fact that diverse states have different demographics, traffic laws, weather, travel speeds, and topography.
-Texas had the highest number of fatal accidents in 2018. Estimates indicated that a person was killed in a collision in the state [every two hours](https://www.worldatlas.com/articles/us-states-with-the-most-car-accidents.html). It is also estimated that 28% of all accidents in the state are caused by drunk driving. 
-You can check the detailed car accident statistics by state [here](https://www.iihs.org/topics/fatality-statistics/detail/state-by-state). 
+Texas had the highest number of fatal accidents in 2018. Estimates indicated that a person was killed in a collision in the state [every two hours](https://www.worldatlas.com/articles/us-states-with-the-most-car-accidents.html). It is also estimated that 28% of all accidents in the state are caused by drunk driving.
+You can check the detailed car accident statistics by state [here](https://www.iihs.org/topics/fatality-statistics/detail/state-by-state).
 
 ## All Road Users are Affected 
-Road accidents do not only harm drivers, but also their passengers and pedestrians. With improving technology and awareness campaigns, you would be surprised that cyclists and pedestrians are still dying at high rates.   
+Road accidents do not only harm drivers, but also their passengers and pedestrians. With improving technology and awareness campaigns, you would be surprised that cyclists and pedestrians are still dying at high rates.
 
 According to the [National Highway Traffic Safety Association (NHTSA)](https://www.nhtsa.gov/road-safety/pedestrian-safety#:~:text=There%20was%20a%20more%20than,the%20most%20deaths%20since%201990.), 2018 saw the highest number of pedestrian and cyclist deaths since 1990. An estimated 96% of the time, in collisions between large trucks and passenger vehicles, the passenger vehicle occupants were killed.
 
-The statistics above show that it is not just the driver who is in danger when an accident occurs. Everyone who uses the road, whether inside or outside the car, is at risk. It also illustrates the importance of targeting all road users when designing measures to mitigate car accidents. 
+The statistics above show that it is not just the driver who is in danger when an accident occurs. Everyone who uses the road, whether inside or outside the car, is at risk. It also illustrates the importance of targeting all road users when designing measures to mitigate car accidents.
 
 ## Accidents by Time
-Perhaps due to changing visibility, fatigue, and other such factors, certain times of the day are peak periods when crashes are more likely to happen. 
+Perhaps due to changing visibility, fatigue, and other such factors, certain times of the day are peak periods when crashes are more likely to happen.
 
-For instance, in 2018, Saturdays were the week’s peak day for fatal crashes, while Fridays were the peak day of the week for non-fatal crashes. The period between [4pm and 7:59pm](https://injuryfacts.nsc.org/motor-vehicle/overview/crashes-by-time-of-day-and-day-of-week/) is the peak time of the day for both fatal and non-fatal car crashes. 
+For instance, in 2018, Saturdays were the week’s peak day for fatal crashes, while Fridays were the peak day of the week for non-fatal crashes. The period between [4pm and 7:59pm](https://injuryfacts.nsc.org/motor-vehicle/overview/crashes-by-time-of-day-and-day-of-week/) is the peak time of the day for both fatal and non-fatal car crashes.
 
 ## Weather-Related Car Accidents
-The weather has a significant effect on the chances of car accidents happening. For example, about [17% of car crashes occur during the winter](https://driving-tests.org/driving-statistics/). Weather-related car accidents kill more people in a year than large-scale weather disasters. 
+The weather has a significant effect on the chances of car accidents happening. For example, about [17% of car crashes occur during the winter](https://driving-tests.org/driving-statistics/). Weather-related car accidents kill more people in a year than large-scale weather disasters.
 
-The Federal Highway Administration (FHWA) reports that about [22% of the 6 million crashes](https://ops.fhwa.dot.gov/weather/q1_roadimpact.htm) in the U.S. every year are weather-related. 
+The Federal Highway Administration (FHWA) reports that about [22% of the 6 million crashes](https://ops.fhwa.dot.gov/weather/q1_roadimpact.htm) in the U.S. every year are weather-related.
 
 ## Single and Multiple Vehicle Crashes
 Among motorcyclist deaths, around [37%](https://driving-tests.org/driving-statistics/) are due to single-vehicle crashes, while multiple-vehicle crashes account for the remaining 63%. However, statistics show that driver death rates in single-vehicle rollover crashes have declined in the last four decades.
 
-Roughly, [85% of fatalities from rollover crashes]() resulted from single-vehicle crashes. In multiple-vehicle crashes involving a passenger vehicle and a large truck, the passenger vehicles’ occupants are killed around [96% of the time](https://driving-tests.org/driving-statistics/). 
+Roughly, [85% of fatalities from rollover crashes]() resulted from single-vehicle crashes. In multiple-vehicle crashes involving a passenger vehicle and a large truck, the passenger vehicles’ occupants are killed around [96% of the time](https://driving-tests.org/driving-statistics/).
 
 ## Cost of Road Accidents
-Road accidents do not only lead to a loss of life, but also damage to property. The economic implication of road accidents in the U.S. can be as high as [$800 billion a year](https://www.pbs.org/newshour/nation/motor-vehicle-crashes-u-s-cost-871-billion-year-federal-study-finds). 
+Road accidents do not only lead to a loss of life, but also damage to property. The economic implication of road accidents in the U.S. can be as high as [$800 billion a year](https://www.pbs.org/newshour/nation/motor-vehicle-crashes-u-s-cost-871-billion-year-federal-study-finds).
 The Lancet, a weekly peer-reviewed general medical journal, estimates that the world is set to lose [$1.8 trillion](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(19)30170-6/fulltext) to road accidents between 2015 and 2030.
 
 ## Trends and Future Forecasts
 The world has become reliant on technology for much of its activities, and driving is no exception. A report by PricewaterhouseCoopers (PwC), a multinational professional services network of firms, focuses on trends that are transforming the automotive industry.
-One of the trends expected to impact car accidents across the world is the development of transportation that is both “autonomous” and “shared.” This development is projected to reduce the world’s automobile inventory by around 25%, thereby making the roads a little safer for everybody. 
+One of the trends expected to impact car accidents across the world is the development of transportation that is both “autonomous” and “shared.” This development is projected to reduce the world’s automobile inventory by around 25%, thereby making the roads a little safer for everybody.
 
 # Questions
 
@@ -211,7 +211,6 @@ Here is the code to th above visualizations:
 
 (https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/DataCleaning/DataBase/queries_final.sql)
 
-
 # Machine Learning
 
 #### How we can work on this problem with machine learning!
@@ -240,11 +239,10 @@ This dataset contains 49 columns which means we are dealing with 49 features in 
     - ID : Since ID doesn't carry any information for the severity.
     - Start_Time,End_Time : Because it has already been decomposed to calculate other time features such as day, month, weekday and Year.
     - Zipcode : Because we just focus on the City,County and State where the accident happened.
- - Dropped the Null values
- - After the pre-processing, the dataset now contains 39 columns.
+   - Dropped the Null values
+   - After the pre-processing, the dataset now contains 39 columns.
 
- 
-#### ✓ Description of preliminary feature engineering 
+#### ✓ Description of preliminary feature engineering
 
 After deleting the non-beneficial columns,this dataset contains 7 categorical columns. i.e (street,side,city,county,state,sunrise_sunset & month)
 
@@ -254,9 +252,7 @@ Binning method is used to smoothing data or to handle noisy data.
  - If we consider all catogerical columns, the Street column as a highst nunber of unique values, that is 17079. So used binning to catogerised the values of the Street column,
   
  - Choose value count of Street less than 20 then categorize as "Other".the reason to chose less than 20 is less than 20 streets doesn't contain any major highways.
-        
 ##### Label Encoding vs  One-Hot Encoding
-
 
 Machines Learning Algorithms  understand numbers, not text. We need to convert each text category to numbers in order for the machine learning  to process them using mathematical equations.
 
@@ -296,14 +292,14 @@ Balance Accuracy Score:
 
 ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive%20random%20oversampling-BAS.png)
 
- ##### Undersampling
+##### Undersampling
 
  Undersampling is another technique to address class imbalance.Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased.
- 
+
  Tested an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above.
  undersampled the data using the Cluster Centroids algorithm and it only gave accuracy score of 39.65%.
 
- ##### Combination of Over and Under Sampling
+##### Combination of Over and Under Sampling
 
  Combination over- and under-sampling algorithm used to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm and gave 44.58% of accuracy score.
 
@@ -313,21 +309,21 @@ Balance Accuracy Score:
    Random forest models use a number of weak learner algorithms (decision trees) and combine their output to make a final classification (or regression) decision. Structurally speaking, random forest models are very similar to their neural network counterparts.
 
   Random forest models have been a staple in machine learning algorithms for many years due to their robustness and scalability. Both output and feature selection of random forest models are easy to interpret, and they can easily handle outliers and nonlinear data.
- 
- Random forest classifier Accuracy score:
- 
+
+Random forest classifier Accuracy score:
+
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20accuracy%20score.png)
- 
+
  We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
- 
+
  Great thing Random Forest classifier is  it gives most importance features and it has emerged as a quite useful algorithm that can handle the feature selection issue even with a higher number of variables.
- 
+
  Feature impotency:
- 
+
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20Feature%20impotacy.png)
- 
+
  According to the graph the top 10 important features for Accident severity are time_duration,Distance,Year,Start_Lng,Pressure,State,City,County,Humidity and Windchill.
- 
+
 And least impotence features are Roundabout,Turning_Loop,Bump,Traffic_Calming and 'No_Exit'.
 
 ##### Easy Ensemble AdaBoost classifier
@@ -342,9 +338,7 @@ Comparing All Accuracy scores:
 
  After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithms and Ensemble AdaBoost classifier we decided to proceed with Easy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident dataset.
 
-
 ![DifferentMLAlgorithm Types](./IMAGES/difftypeofML.png)
-
 
 ### Segment 3:
 * Team decided to use three algorithms (Navia random Oversampling RFC and Easy Adbooster Classifier) with highest accuracy score for the testing of whole dataset.
@@ -353,11 +347,10 @@ Comparing All Accuracy scores:
 
 ![AA](./IMAGES/Accurasy3algorthms.PNG)
 
-* For whole dataset Random forest Classifier gives 83% accuracy score and 87% f1 score. 
+* For whole dataset Random forest Classifier gives 83% accuracy score and 87% f1 score.
 * Accordingly it become the best algorithm to predict accident severity in our dataset.
 
 ![CM](./IMAGES/RFCconfusionMetrix.PNG)
-
 
 This is the link to the segment 3 Jupyter nOtebook:
 
@@ -365,13 +358,11 @@ https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/main/Mac
 
 Note: Please run one algorithm at a time as this is a very large Dataset.
 
-
 # ERD 
 
 Here is our ERD diagram of the tables used in this project
 
 ![top 10](./IMAGES/ERD-US_Accident.png)
-
 
 # Data Visualization
 
@@ -417,8 +408,7 @@ Here is our ERD diagram of the tables used in this project
 [Machine Learning Process text file link](https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/MachineLearningModel/MLStage1.txt)
 
 ## Instructions
-	In order for our presentation to work you will need to use ther following link:
- 
+	In order for our presentation to work you will need to use the following link:
 
 ## Further Improvements:
 One-hot encoding can be tried for some of the features.
