@@ -356,11 +356,19 @@ Comparing All Accuracy scores:
 
 ![CM](./IMAGES/RFCconfusionMetrix.PNG)
 
-This is the link to the segment 3 Jupyter nOtebook:
+This is the link to the segment 3 Jupyter notebook:
 
 https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/main/MachineLearning/ML_US_accident_dataset.ipynb
 
 Note: Please run one algorithm at a time as this is a very large Dataset.
+
+segment 4:
+Tuning the parameters Balanced Random Forest Classifier
+As we using balanced RFC, it itself has resampling technique.
+What makes them so great is that it corrects the overfitting of a single decision tree model by using Bagging, also known as Bootstrap Aggregating.
+Enhanced  RFC by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
+
+![RFC tunning](./IMAGES/RFC%20tuning.PNG)
 
 # ERD 
 
