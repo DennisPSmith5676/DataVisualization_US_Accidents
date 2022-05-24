@@ -2,8 +2,6 @@
 
 ![Accident](/IMAGES/car-crash-accident-on-road-600w-577056850.webp)
 
-
-
 This is the final Team 8 project for the Rutgers Data Visualization Bootcamp
 
 # Team
@@ -195,7 +193,7 @@ Accident_city_atstopsign_night
 
 Count_Severity_Year
 
-![top 10](./IMAGES/count_year.png)
+![top 10](./IMAGES/count_year.PNG)
 
 count_hour
 
@@ -368,6 +366,10 @@ segment 4:
 Tuning the parameters Balanced Random Forest Classifier
 As we using balanced RFC, it itself has resampling technique.
 What makes them so great is that it corrects the overfitting of a single decision tree model by using Bagging, also known as Bootstrap Aggregating.
+
+![RFC tunning](./IMAGES/BRFparameters.png)
+
+
 Enhanced  RFC by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
 
 ![RFC tunning](./IMAGES/RFC%20tuning.PNG)
@@ -391,6 +393,7 @@ Here is our ERD diagram of the tables used in this project
     A contract that both the API publisher and its consumers are agreed to adhere to in order to effectively communicate. And like most other contracts, to work in an expected manner, an API should document its various aspects. Aspects such as the endpoints it offers, operations that the endpoints support, and the response it returns for a request? Moreover, to accommodate ever-changing demands, an API evolves over time. In such a scenario, well documenting an API is not a choice but an integral part of its offerings to ensure a better customer experience.
     
     A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for "representational state transfer".
+
 https://en.wikipedia.org/wiki/Representational_state_transfer
 
 https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-openapi-6df7f26dcad
@@ -425,10 +428,10 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
 # Reports and Instructions
   
 ## Google Slides - This is the link to our presentation.
-  [Google Slides file link](https://docs.google.com/presentation/d/1k70pxCqJ17CRlEg-YkXJJzSyp433tCJifYSuqxTYrr0/edit?usp=sharing)
+  [Google Slides file link](https://docs.google.com/presentation/d/1BbW_9SDosgocGcgVJXc93XC9Y5BanCLbL863OFvCy94/edit?usp=sharing)
 
 ## Tableau Slides - This is the link to our images and visulizations from Tableau.
-[Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/US_Accident?publish=yes)
+[Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/County?publish=yes)
 
 ## Comunication  
 ✓ Description of the communication protocols: We are meeting 5 times a week and reviewing all changes before we commit the code and files to the main branch.
