@@ -193,7 +193,7 @@ Accident_city_atstopsign_night
 
 Count_Severity_Year
 
-![top 10](./IMAGES/count_year.png)
+![top 10](./IMAGES/count_year.PNG)
 
 count_hour
 
@@ -364,12 +364,12 @@ Note: Please run one algorithm at a time as this is a very large Dataset.
 
 segment 4:
 Tuning the parameters Balanced Random Forest Classifier
-As we using balanced RFC, it itself has resampling technique.
+As we using balanced Random Forest Classifier, it itself has resampling technique.
 What makes them so great is that it corrects the overfitting of a single decision tree model by using Bagging, also known as Bootstrap Aggregating.
 
 ![RFC tunning](./IMAGES/BRFparameters.PNG)
 
-Enhanced  RFC by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
+Enhanced Random Forest Classifier by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
 
 ![RFC tunning](./IMAGES/RFC%20tuning.PNG)
 
@@ -392,7 +392,6 @@ Here is our ERD diagram of the tables used in this project
     A contract that both the API publisher and its consumers are agreed to adhere to in order to effectively communicate. And like most other contracts, to work in an expected manner, an API should document its various aspects. Aspects such as the endpoints it offers, operations that the endpoints support, and the response it returns for a request? Moreover, to accommodate ever-changing demands, an API evolves over time. In such a scenario, well documenting an API is not a choice but an integral part of its offerings to ensure a better customer experience.
     
     A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for "representational state transfer".
-    
 https://en.wikipedia.org/wiki/Representational_state_transfer
 
 https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-openapi-6df7f26dcad
@@ -409,6 +408,7 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
 
 * After that we asked the questions about how to incorporate our knowledge of machine learning to solve the questions we have during EDA.The basic idea we had was, why not train some models on the dataset and use those models to get the feature importance to figure out which factors contribute the most to an accident. We realized that "Severity" of the accident is the most important feature og our data and so many factors affect it. So we run the ML models on mock dataset and then cleaned real dataset.
 * After finding the feature importance's, we came to the data visualization. We realized that we could do static visualization in Tableau and dynamic visualization using javascript, flask, python, html,css,leaflet,and swagger.
+
 ![top 10](./IMAGES/Team%208%20-%20BRFC.png)
 
 * With extensive documentation available online, module content from the bootcamp, and brainstorming about visualization, we decided to focus on accident count to be displayed according to year and severity. Then decided to incorporate different factors to display on the maps for specific co-ordinates.
