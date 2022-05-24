@@ -349,12 +349,12 @@ Comparing All Accuracy scores:
 * Not only the algorithm, we drop the least five features 'No_Exit', 'Traffic_Calming', 'Roundabout','Bump', 'Turning_Loop' from RFC feature impotence when going for whole dataset.
 * When considering whole dataset the  dropped the column Street as it is too much noisy.
 
-![AA](./IMAGES/Accurasy3algorthms.png)
+![AA](./IMAGES/Accurasy3algorthms.PNG)
 
 * For whole dataset Random forest Classifier gives 83% accuracy score and 87% f1 score.
 * Accordingly it become the best algorithm to predict accident severity in our dataset.
 
-![CM](./IMAGES/RFCconfusionMetrix.png)
+![CM](./IMAGES/RFCconfusionMetrix.PNG)
 
 This is the link to the segment 3 Jupyter notebook:
 
@@ -367,11 +367,11 @@ Tuning the parameters Balanced Random Forest Classifier
 As we using balanced RFC, it itself has resampling technique.
 What makes them so great is that it corrects the overfitting of a single decision tree model by using Bagging, also known as Bootstrap Aggregating.
 
-![RFC tunning](./IMAGES/BRFparameters.png)
+![RFC tunning](./IMAGES/BRFparameters.PNG)
 
 Enhanced  RFC by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
 
-![RFC tunning](./IMAGES/RFC%20tuning.png)
+![RFC tunning](./IMAGES/RFC%20tuning.PNG)
 
 # ERD 
 
