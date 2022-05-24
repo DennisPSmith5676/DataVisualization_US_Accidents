@@ -193,7 +193,7 @@ Accident_city_atstopsign_night
 
 Count_Severity_Year
 
-![top 10](./IMAGES/count_year.PNG)
+![top 10](./IMAGES/count_year.png)
 
 count_hour
 
@@ -349,12 +349,12 @@ Comparing All Accuracy scores:
 * Not only the algorithm, we drop the least five features 'No_Exit', 'Traffic_Calming', 'Roundabout','Bump', 'Turning_Loop' from RFC feature impotence when going for whole dataset.
 * When considering whole dataset the  dropped the column Street as it is too much noisy.
 
-![AA](./IMAGES/Accurasy3algorthms.PNG)
+![AA](./IMAGES/Accurasy3algorthms.png)
 
 * For whole dataset Random forest Classifier gives 83% accuracy score and 87% f1 score.
 * Accordingly it become the best algorithm to predict accident severity in our dataset.
 
-![CM](./IMAGES/RFCconfusionMetrix.PNG)
+![CM](./IMAGES/RFCconfusionMetrix.png)
 
 This is the link to the segment 3 Jupyter notebook:
 
@@ -371,7 +371,7 @@ What makes them so great is that it corrects the overfitting of a single decisio
 
 Enhanced  RFC by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
 
-![RFC tunning](./IMAGES/RFC%20tuning.PNG)
+![RFC tunning](./IMAGES/RFC%20tuning.png)
 
 # ERD 
 
