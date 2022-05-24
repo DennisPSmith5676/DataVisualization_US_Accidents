@@ -362,7 +362,7 @@ https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/main/Mac
 
 Note: Please run one algorithm at a time as this is a very large Dataset.
 
-segment 4:
+### Segment 4:
 Tuning the parameters Balanced Random Forest Classifier
 As we using balanced Random Forest Classifier, it itself has resampling technique.
 What makes them so great is that it corrects the overfitting of a single decision tree model by using Bagging, also known as Bootstrap Aggregating.
