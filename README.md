@@ -193,7 +193,7 @@ Accident_city_atstopsign_night
 
 Count_Severity_Year
 
-![top 10](./IMAGES/count_year.PNG)
+![top 10](./IMAGES/count_year.png)
 
 count_hour
 
@@ -427,7 +427,7 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
 # Reports and Instructions
   
 ## Google Slides - This is the link to our presentation.
-  [Google Slides file link](https://docs.google.com/presentation/d/1BbW_9SDosgocGcgVJXc93XC9Y5BanCLbL863OFvCy94/edit?usp=sharing)
+  [Google Slides file link](https://docs.google.com/presentation/d/1k70pxCqJ17CRlEg-YkXJJzSyp433tCJifYSuqxTYrr0/edit?usp=sharing)
 
 ## Tableau Slides - This is the link to our images and visulizations from Tableau.
 [Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/County?publish=yes)
