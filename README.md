@@ -430,7 +430,7 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
   [Google Slides file link](https://docs.google.com/presentation/d/1k70pxCqJ17CRlEg-YkXJJzSyp433tCJifYSuqxTYrr0/edit?usp=sharing)
 
 ## Tableau Slides - This is the link to our images and visulizations from Tableau.
-[Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/County?publish=yes)
+[Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/US_Accident)
 
 ## Comunication  
 ✓ Description of the communication protocols: We are meeting 5 times a week and reviewing all changes before we commit the code and files to the main branch.
