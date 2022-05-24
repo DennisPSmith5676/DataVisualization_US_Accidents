@@ -369,7 +369,6 @@ What makes them so great is that it corrects the overfitting of a single decisio
 
 ![RFC tunning](./IMAGES/BRFparameters.png)
 
-
 Enhanced  RFC by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
 
 ![RFC tunning](./IMAGES/RFC%20tuning.PNG)
@@ -393,7 +392,7 @@ Here is our ERD diagram of the tables used in this project
     A contract that both the API publisher and its consumers are agreed to adhere to in order to effectively communicate. And like most other contracts, to work in an expected manner, an API should document its various aspects. Aspects such as the endpoints it offers, operations that the endpoints support, and the response it returns for a request? Moreover, to accommodate ever-changing demands, an API evolves over time. In such a scenario, well documenting an API is not a choice but an integral part of its offerings to ensure a better customer experience.
     
     A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for "representational state transfer".
-
+    
 https://en.wikipedia.org/wiki/Representational_state_transfer
 
 https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-openapi-6df7f26dcad
