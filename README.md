@@ -179,7 +179,7 @@ In order to do our Data Visualization we created the Geography.db, Location.db a
 
 In out analysis we asked the following questions in addition to the questions from above.
 
-Accident_city_nighttime_> 32 Degrees
+Accident_city_nighttime_< 33 Degrees
 
 ![top 10](./IMAGES/image%20(6).png)
 
