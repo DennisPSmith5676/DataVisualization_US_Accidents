@@ -432,6 +432,9 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
 ## Tableau Slides - This is the link to our images and visulizations from Tableau.
 [Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/US_Accident)
 
+## Zoom Recording - This is the link to our practice session for our final Presintation.
+[Practice Session link](https://us02web.zoom.us/rec/share/_QGJVPyKc0BP7U5Qa8kK3cTdZcBsuxHWvBnqnH1sHyW6Bw29sCXfsPxIAct01h9Q.r0SY2SspZ5HSb5wb?startTime=1653437071000)
+
 ## Comunication  
 ✓ Description of the communication protocols: We are meeting 5 times a week and reviewing all changes before we commit the code and files to the main branch.
 
