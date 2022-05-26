@@ -8,7 +8,7 @@ import pandas as pd
 app = connexion.App(__name__, specification_dir="./")
 app.add_api("swagger.yml")
 
-# Allows cors origin requests to only the /api/* URLs
+# Allows cross origin requests to only the /api/* URLs
 # Lets us use the API from another site -
 CORS(app.app, resources={r"/api/*"})
 
