@@ -45,7 +45,7 @@ var popupGroup = L.layerGroup().addTo(map);
 // Calculates the number of entries in the returned JSON, and displays the count of rows
 // The JSON is still fully valid, so it can be used to display other data about the entries
 const getCount = async () => {
-    const response = await fetch('http://192.168.1.11:5000/api/accidents?year=' + year + '&severity=' + severity);
+    const response = await fetch('http://localhost:5000/api/accidents?year=' + year + '&severity=' + severity);
     const accidentsJSON = await response.json();
 
     var count = Object.keys(accidentsJSON).length;
