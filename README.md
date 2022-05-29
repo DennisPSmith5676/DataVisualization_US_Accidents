@@ -2,6 +2,8 @@
 
 ![Accident](/IMAGES/car-crash-accident-on-road-600w-577056850.webp)
 
+
+
 This is the final Team 8 project for the Rutgers Data Visualization Bootcamp
 
 # Team
@@ -366,10 +368,7 @@ Note: Please run one algorithm at a time as this is a very large Dataset.
 Tuning the parameters Balanced Random Forest Classifier
 As we using balanced Random Forest Classifier, it itself has resampling technique.
 What makes them so great is that it corrects the overfitting of a single decision tree model by using Bagging, also known as Bootstrap Aggregating.
-
-![RFC tunning](./IMAGES/BRFparameters.PNG)
-
-Enhanced Random Forest Classifier by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
+Enhanced  RFC by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
 
 ![RFC tunning](./IMAGES/RFC%20tuning.PNG)
 
@@ -430,7 +429,7 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
   [Google Slides file link](https://docs.google.com/presentation/d/1k70pxCqJ17CRlEg-YkXJJzSyp433tCJifYSuqxTYrr0/edit?usp=sharing)
 
 ## Tableau Slides - This is the link to our images and visulizations from Tableau.
-[Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/US_Accident)
+[Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/US_Accident?publish=yes)
 
 ## Zoom Recording - This is the link to our practice session for our final Presintation.
 [Practice Session link](https://us02web.zoom.us/rec/share/_QGJVPyKc0BP7U5Qa8kK3cTdZcBsuxHWvBnqnH1sHyW6Bw29sCXfsPxIAct01h9Q.r0SY2SspZ5HSb5wb?startTime=1653437071000)
