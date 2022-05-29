@@ -6,7 +6,10 @@
 		"Scikit",
 		"Sklearn",
 		"SMOTEENN",
+<<<<<<< HEAD
+=======
 		"swaggerhub",
+>>>>>>> 2a471f43993b2bb844fcf48471277f45da396daf
 		"undersampled",
 		"Undersampler",
 		"undersampling",
