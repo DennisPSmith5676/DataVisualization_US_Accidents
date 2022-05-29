@@ -47,7 +47,6 @@ var popupGroup = L.layerGroup().addTo(map);
 const getCount = async () => {
     const response = await fetch('http://localhost:5000/api/accidents?year=' + year + '&severity=' + severity);
     const accidentsJSON = await response.json();
-
     var count = Object.keys(accidentsJSON).length;
 
     // Ensures that no more than 1000 points are displayed at once on the map
@@ -61,6 +60,7 @@ const getCount = async () => {
         "<strong>Accident Count: </strong>" + count + "<br>" +
         "<strong>Points Displayed: </strong>" + Math.floor(count / threshold);
 
+
     // Clears the map of any markers
     popupGroup.clearLayers();
 
@@ -69,7 +69,7 @@ const getCount = async () => {
         var lat = accidentsJSON[i].Start_Lat;
         var lon = accidentsJSON[i].Start_Lng;
         var marker = L.circleMarker([lat, lon], { radius: 4, closeOnClick: false, autoClose: false, closeButton: true }).addTo(popupGroup);
-
+        
         marker.bindPopup(
             "<p style='font-size:12px;'>Humidity: " + accidentsJSON[i]["Humidity(%)"] +
             "<br>Pressure(in): " + accidentsJSON[i]["Pressure(in)"] +
@@ -79,4 +79,3 @@ const getCount = async () => {
         popupGroup.addTo(map);
     }
 }
-
