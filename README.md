@@ -181,7 +181,7 @@ In order to do our Data Visualization we created the Geography.db, Location.db a
 
 In out analysis we asked the following questions in addition to the questions from above.
 
-Accident_city_nighttime_> 32 Degrees
+Accident_city_nighttime_< 33 Degrees
 
 ![top 10](./IMAGES/image%20(6).png)
 
@@ -258,9 +258,12 @@ Binning method is used to smoothing data or to handle noisy data.
  - If we consider all catogerical columns, the Street column as a highst nunber of unique values, that is 17079. So used binning to catogerised the values of the Street column,
   
  - Choose value count of Street less than 20 then categorize as "Other".the reason to chose less than 20 is less than 20 streets doesn't contain any major highways.
+
 ##### Label Encoding vs  One-Hot Encoding
 
 Machines Learning Algorithms  understand numbers, not text. We need to convert each text category to numbers in order for the machine learning  to process them using mathematical equations.
+
+2a471f43993b2bb844fcf48471277f45da396daf
 
 Ever wondered how we can do that? What are the different ways?This is where Label Encoding and One-Hot Encoding come into the picture.
 
@@ -298,14 +301,18 @@ Balance Accuracy Score:
 
 ![Naive random oversampling Balance Acuracy Score](./IMAGES/Naive%20random%20oversampling-BAS.png)
 
+
 ##### Undersampling
+
 
  Undersampling is another technique to address class imbalance.Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased.
 
  Tested an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above.
  undersampled the data using the Cluster Centroids algorithm and it only gave accuracy score of 39.65%.
 
+
 ##### Combination of Over and Under Sampling
+ 2a471f43993b2bb844fcf48471277f45da396daf
 
  Combination over- and under-sampling algorithm used to determine if the algorithm results in the best performance compared to the other sampling algorithms above. Resampled the data using the SMOTEENN algorithm and gave 44.58% of accuracy score.
 
@@ -318,18 +325,23 @@ Balance Accuracy Score:
 
 Random forest classifier Accuracy score:
 
- ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20accuracy%20score.png)
+![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20accuracy%20score.png)
 
  We can see that Random ForestRandom Forest response encoding and resampling gives us the best results out of all the models we tested. So, we can conclude that this combination is the best for this dataset.
+ 
+ Great thing Random Forest classifier is  it gives most importance features and it has emerged as a quite useful algorithm that can handle the feature selection issue even with a higher number of variables.
+ 
+
 
  Great thing Random Forest classifier is  it gives most importance features and it has emerged as a quite useful algorithm that can handle the feature selection issue even with a higher number of variables.
 
- Feature impotency:
+
+Feature impotency:
 
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20Feature%20impotacy.png)
-
+ 
  According to the graph the top 10 important features for Accident severity are time_duration,Distance,Year,Start_Lng,Pressure,State,City,County,Humidity and Windchill.
-
+ 
 And least impotence features are Roundabout,Turning_Loop,Bump,Traffic_Calming and 'No_Exit'.
 
 ##### Easy Ensemble AdaBoost classifier
@@ -343,7 +355,6 @@ Comparing All Accuracy scores:
 ![Comparing All Accuracy scores](./IMAGES/AllAccuracy.png)
 
  After comparing accuracy scores on  over sampled ,under sampled Random Forest Classifier algorithms and Ensemble AdaBoost classifier we decided to proceed with Easy Ensemble AdaBoost classifier and Random Forest Classifier for entire US accident dataset.
-
 ![DifferentMLAlgorithm Types](./IMAGES/difftypeofML.png)
 
 ### Segment 3:
@@ -364,9 +375,9 @@ https://github.com/DennisPSmith5676/DataVisualization_US_Accidents/blob/main/Mac
 
 Note: Please run one algorithm at a time as this is a very large Dataset.
 
-segment 4:
+### Segment 4:
 Tuning the parameters Balanced Random Forest Classifier
-As we using balanced RFC, it itself has resampling technique.
+As we using balanced Random Forest Classifier, it itself has resampling technique.
 What makes them so great is that it corrects the overfitting of a single decision tree model by using Bagging, also known as Bootstrap Aggregating.
 Enhanced  RFC by changing its parameters like n_estimators (i.e number of trees) but  higher number of trees gives better accuracy and F1 scores but it makes the code slower.
 
@@ -398,7 +409,6 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
 ![top 10](./IMAGES/Team%208%20-%20slide.png)
 
 * After selecting data source, doing elementary data analysis, we cleaned the data and created a database with ERD diagrams in postgres and uploaded the database to AWS.
-
 ![top 10](./IMAGES/Team%208%20-%20Database.png)
 
 ![top 10](./IMAGES/Team%208%20-%20CSV.png)
@@ -407,6 +417,7 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
 
 * After that we asked the questions about how to incorporate our knowledge of machine learning to solve the questions we have during EDA.The basic idea we had was, why not train some models on the dataset and use those models to get the feature importance to figure out which factors contribute the most to an accident. We realized that "Severity" of the accident is the most important feature og our data and so many factors affect it. So we run the ML models on mock dataset and then cleaned real dataset.
 * After finding the feature importance's, we came to the data visualization. We realized that we could do static visualization in Tableau and dynamic visualization using javascript, flask, python, html,css,leaflet,and swagger.
+
 ![top 10](./IMAGES/Team%208%20-%20BRFC.png)
 
 * With extensive documentation available online, module content from the bootcamp, and brainstorming about visualization, we decided to focus on accident count to be displayed according to year and severity. Then decided to incorporate different factors to display on the maps for specific co-ordinates.
@@ -425,10 +436,15 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
 # Reports and Instructions
   
 ## Google Slides - This is the link to our presentation.
-  [Google Slides file link](https://docs.google.com/presentation/d/1k70pxCqJ17CRlEg-YkXJJzSyp433tCJifYSuqxTYrr0/edit?usp=sharing)
+[Google Slides file link](https://docs.google.com/presentation/d/1k70pxCqJ17CRlEg-YkXJJzSyp433tCJifYSuqxTYrr0/edit?usp=sharing)
 
 ## Tableau Slides - This is the link to our images and visulizations from Tableau.
+
 [Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/US_Accident?publish=yes)
+
+## Zoom Recording - This is the link to our practice session for our final Presintation.
+
+[Practice Session link](https://us02web.zoom.us/rec/share/_QGJVPyKc0BP7U5Qa8kK3cTdZcBsuxHWvBnqnH1sHyW6Bw29sCXfsPxIAct01h9Q.r0SY2SspZ5HSb5wb?startTime=1653437071000)
 
 ## Comunication  
 ✓ Description of the communication protocols: We are meeting 5 times a week and reviewing all changes before we commit the code and files to the main branch.
