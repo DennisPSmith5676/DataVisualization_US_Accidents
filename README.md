@@ -440,7 +440,7 @@ https://medium.com/swlh/restful-api-documentation-made-easy-with-swagger-and-ope
 
 ## Tableau Slides - This is the link to our images and visulizations from Tableau.
 
-[Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/DataVisualtization/US_Accident?publish=yes)
+[Tableau file link](https://public.tableau.com/app/profile/uma.iyer/viz/USAccidentDataVisualization/US_Accident)
 
 ## Zoom Recording - This is the link to our practice session for our final Presintation.
 
