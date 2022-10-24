@@ -336,7 +336,7 @@ Random forest classifier Accuracy score:
  Great thing Random Forest classifier is  it gives most importance features and it has emerged as a quite useful algorithm that can handle the feature selection issue even with a higher number of variables.
 
 
-Feature impotency:
+Feature Importances:
 
  ![Random forest classifier Accuracy score](./IMAGES/Random%20forest%20Feature%20impotacy.png)
  
